@@ -5,7 +5,7 @@
 ```bash
 python3 -m venv .venv                # из корня репозитория
 source .venv/bin/activate
-pip install -r scripts/requirements.txt   # requests, beautifulsoup4
+pip install -r scripts/requirements.txt   # requests, beautifulsoup4, numpy, ...
 ```
 
 ## Порядок запуска
@@ -28,10 +28,20 @@ python validate_dataset.py  # проверки (режим исходных/за
 
 Для полной пересборки нужно запустить все пять скриптов по порядку. `fetch_wiki.py --force` перезакачивает скачанные страницы.
 
+### Векторный индекс
+
+```bash
+python build_index.py       # knowledge_base/ -> vector_store/faiss.index
+                            # + vector_store/meta.json (эмбеддинги кэшируются,
+                            # повторный запуск без пересчёта)
+python build_index.py --test   # три тестовых запроса по готовому индексу
+```
+
 ## Структура
 
 - `common.py` -- общие пути (`data/raw`, `knowledge_base`), плановые объёмы (`EXPECTED_STATS`), конструктор regex одного термина (`compile_term_pattern`) и правило восстановления суффиксов (`replacement_value`); импортируется остальными скриптами.
 - `fetch_wiki.py`, `clean_html.py`, `build_terms_map.py`, `replace_terms.py`, `validate_dataset.py` -- один скрипт на каждый этап.
+- `build_index.py` -- строит векторный индекс базы знаний: чанкинг `langchain-text-splitters`, эмбеддинги bge-m3, индекс FAISS в `vector_store/` (faiss.index + meta.json); `--test` прогоняет тестовые запросы.
 - `data/raw/` -- промежуточные файлы.
 
 ## Что делает каждый скрипт
@@ -107,6 +117,17 @@ python validate_dataset.py  # проверки (режим исходных/за
 1. Состав файлов совпадает с `terms_map.json` (149 шт.).
 2. Front-matter: title и сущности -- в терминах, строки `source` нет.
 3. Скан остатков по всем исходным терминам (339 пар + термины вариантов + `noita`/адрес вики в любом регистре): остатков быть не должно.
+
+### build_index.py
+
+Строит `vector_store/faiss.index` (FAISS IndexFlatIP) и `vector_store/meta.json` из `knowledge_base/` (README.md и служебные json не индексируются).
+
+1. Читает документы с разбором YAML front-matter (title, сущности страницы).
+2. Режет тела на чанки `RecursiveCharacterTextSplitter` из `langchain-text-splitters`: чанк 1800 символов (около 300 слов), перекрытие 200, сепараторы `["\n## ", "\n\n", ". ", " ", ""]` с `keep_separator=True`. Каждый чанк начинается строкой с заголовком документа -- у чанков из середины секций иначе нет контекста, о какой сущности речь.
+3. Кодирует чанки bge-m3 (нормализованные, batch 8). Эмбеддинги кэшируются в `scripts/data/cache/`: ключ кэша -- sha256 модели и текстов чанков, после изменения чанкинга кэш автоматически перестаёт попадать; повторный запуск строит индекс без пересчёта эмбеддингов.
+4. Добавляет эмбеддинги в IndexFlatIP (векторы нормализованы, поэтому inner product эквивалентен косинусной близости) и пишет faiss.index + meta.json. В meta.json у каждого чанка: `id` (совпадает с номером строки индекса), `source`, `title`, `chunk` (позиция в документе), `entities`, полный `text`; плюс параметры модели и чанкинга, время генерации эмбеддингов.
+
+Флаг `--test` не строит индекс заново, а кодирует три тестовых запроса (два на английском, один на русском -- проверка кросс-язычного поиска) и печатает найденные чанки со score.
 
 ## Артефакты
 

@@ -1,2 +1,7 @@
 requests
 beautifulsoup4
+pyyaml
+numpy
+sentence-transformers
+faiss-cpu
+langchain-text-splitters
