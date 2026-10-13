@@ -5,7 +5,7 @@
 ```bash
 python3 -m venv .venv                # из корня репозитория
 source .venv/bin/activate
-pip install -r scripts/requirements.txt   # requests, beautifulsoup4, numpy, ...
+pip install -r scripts/requirements.txt   # requests, beautifulsoup4, openai, ...
 ```
 
 ## Порядок запуска
@@ -37,11 +37,39 @@ python build_index.py       # knowledge_base/ -> vector_store/faiss.index
 python build_index.py --test   # три тестовых запроса по готовому индексу
 ```
 
+### RAG-бот
+
+Бот читает конфигурацию LLM из переменных окружения, ключ в git не попадает:
+
+```bash
+export OPENAI_API_KEY=sk-...                # ключ провайдера
+# export OPENAI_BASE_URL=https://api.<provider>.com/v1   # адрес провайдера; не задан -- официальный OpenAI
+export RAG_CHAT_MODEL=gpt-6-luna            # не задан -- gpt-6-luna
+
+cd ..                                     # в корень репозитория
+source .venv/bin/activate                 # Windows: .venv\Scripts\activate
+python scripts/rag_bot.py                 # REPL; exit или Ctrl+D -- выход
+python scripts/rag_bot.py --ask "Какой дух накладывает эффект берсерк?"   # один вопрос
+```
+
+Рабочий каталог не важен: скрипт ищет индекс относительно своего файла. Но вызывайте интерпретатор по пути без `..` (через активированное окружение или из корня репозитория): в Python 3.14 вызов вида `../.venv/bin/python` из `scripts/` печатает RuntimeWarning про `sys.prefix` -- предупреждение безвредно, но лучше его не видеть.
+
+Готовые пресеты провайдеров (меняются только переменные, код один):
+
+| Провайдер | OPENAI_BASE_URL | Пример модели | Оплата |
+| --- | --- | --- | --- |
+| OpenRouter | `https://openrouter.ai/api/v1` | `deepseek/deepseek-r1:free` | free-лимит 50 запросов/день |
+| Groq | `https://api.groq.com/openai/v1` | `llama-3.3-70b-versatile` | free-лимит 30 запросов/мин |
+| Ollama (локально) | `http://localhost:11434/v1` | `qwen2.5:7b` | бесплатно, ключ любой непустой |
+
+На Windows-консоли при проблемах с кириллицей запустите с переменной `PYTHONUTF8=1` (set PYTHONUTF8=1 в cmd).
+
 ## Структура
 
 - `common.py` -- общие пути (`data/raw`, `knowledge_base`), плановые объёмы (`EXPECTED_STATS`), конструктор regex одного термина (`compile_term_pattern`) и правило восстановления суффиксов (`replacement_value`); импортируется остальными скриптами.
 - `fetch_wiki.py`, `clean_html.py`, `build_terms_map.py`, `replace_terms.py`, `validate_dataset.py` -- один скрипт на каждый этап.
 - `build_index.py` -- строит векторный индекс базы знаний: чанкинг `langchain-text-splitters`, эмбеддинги bge-m3, индекс FAISS в `vector_store/` (faiss.index + meta.json); `--test` прогоняет тестовые запросы.
+- `rag_bot.py` -- консольный RAG-бот: REPL и режим `--ask`; поиск по индексу, промптинг (Few-shot, Chain-of-Thought), LLM любого OpenAI-совместимого провайдера через переменные окружения.
 - `data/raw/` -- промежуточные файлы.
 
 ## Что делает каждый скрипт
@@ -128,6 +156,15 @@ python build_index.py --test   # три тестовых запроса по г�
 4. Добавляет эмбеддинги в IndexFlatIP (векторы нормализованы, поэтому inner product эквивалентен косинусной близости) и пишет faiss.index + meta.json. В meta.json у каждого чанка: `id` (совпадает с номером строки индекса), `source`, `title`, `chunk` (позиция в документе), `entities`, полный `text`; плюс параметры модели и чанкинга, время генерации эмбеддингов.
 
 Флаг `--test` не строит индекс заново, а кодирует три тестовых запроса (два на английском, один на русском -- проверка кросс-язычного поиска) и печатает найденные чанки со score.
+
+### rag_bot.py
+
+Консольный RAG-бот (REPL и режим `--ask "вопрос"`).
+
+1. Загружает `vector_store/faiss.index` и `meta.json`; при расхождении числа векторов и чанков завершается с предложением пересобрать индекс.
+2. Кодирует запрос той же моделью bge-m3 с нормализацией, что и чанки индекса; IndexFlatIP ищет top-5 чанков, score -- косинусная близость. Чанки с близостью ниже 0.40 отбрасываются; пустая выдача даёт ответ «Я не знаю» без вызова LLM.
+3. Собирает промпт: системный промпт (Chain-of-Thought, Grounding, Refusal, Response language) + примеры Few-shot + найденные чанки с номерами и источниками.
+4. Отправляет промпт в LLM через клиент `openai` (конфигурация -- переменные окружения, см. пресеты провайдеров выше); при сетевых ошибках и rate limit -- до трёх попыток с паузой, при отвергнутом ключе -- сообщение без traceback.
 
 ## Артефакты
 
