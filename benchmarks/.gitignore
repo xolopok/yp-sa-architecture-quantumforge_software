@@ -1,0 +1,8 @@
+# Сгенерированная база знаний (создаётся generate_knowledge_base.py)
+knowledge_base/
+
+# Артефакты бенчмарков
+embeddings_cache.npy
+faiss_storage/
+chromadb_storage/
+chromadb_storage_big/
