@@ -1,0 +1,1572 @@
+{
+  "universe": "Thalvia",
+  "source_dataset": "knowledge_base/terms_map.json (схема замен)",
+  "pages": [
+    {
+      "file": "001_ostrek_ulkoth.md",
+      "title": "Ostrek Ulkoth",
+      "entities": [
+        {
+          "name": "Tavrek Sarreth",
+          "alias": "Sarreth Skitterer"
+        },
+        {
+          "name": "Drazen Kolnok",
+          "alias": "Kolnok Shambler"
+        },
+        {
+          "name": "Ezhara Zenreth",
+          "alias": "Zenreth Watcher"
+        },
+        {
+          "name": "Zentha Nakqir",
+          "alias": "Nakqir Warden"
+        }
+      ]
+    },
+    {
+      "file": "002_zentha_kavsha.md",
+      "title": "Zentha Kavsha",
+      "entities": [
+        {
+          "name": "Zentha Kavsha",
+          "alias": "Kavsha Weaver"
+        }
+      ]
+    },
+    {
+      "file": "003_quorin_belventh.md",
+      "title": "Quorin Belventh",
+      "entities": [
+        {
+          "name": "Quorin Belventh",
+          "alias": "Belventh Shambler"
+        }
+      ]
+    },
+    {
+      "file": "004_halvox_ymmar.md",
+      "title": "Halvox Ymmar",
+      "entities": [
+        {
+          "name": "Halvox Ymmar",
+          "alias": "Ymmar Shaper"
+        }
+      ]
+    },
+    {
+      "file": "005_vorak_silghor.md",
+      "title": "Vorak Silghor",
+      "entities": [
+        {
+          "name": "Vorak Silghor",
+          "alias": "Silghor Minder"
+        }
+      ]
+    },
+    {
+      "file": "006_drazen_orghor.md",
+      "title": "Drazen Orghor",
+      "entities": [
+        {
+          "name": "Drazen Orghor",
+          "alias": "Orghor Sifter"
+        }
+      ]
+    },
+    {
+      "file": "007_kavrik_varvax.md",
+      "title": "Kavrik Varvax",
+      "entities": [
+        {
+          "name": "Kavrik Varvax",
+          "alias": "Varvax Shambler"
+        }
+      ]
+    },
+    {
+      "file": "008_quorin_krelvax.md",
+      "title": "Quorin Krelvax",
+      "entities": [
+        {
+          "name": "Thalven Ulvax",
+          "alias": "Ulvax Herder"
+        },
+        {
+          "name": "Thalven Ezhghor",
+          "alias": "Ulvax Herder"
+        },
+        {
+          "name": "Orune Morkoth",
+          "alias": "Morkoth Darter"
+        },
+        {
+          "name": "Drazen Orvax",
+          "alias": "Ulvax Herder"
+        }
+      ]
+    },
+    {
+      "file": "009_kessari_mavvax.md",
+      "title": "Kessari Mavvax",
+      "entities": [
+        {
+          "name": "Kessari Mavvax",
+          "alias": "Mavvax Burrower"
+        }
+      ]
+    },
+    {
+      "file": "010_rukhel_vossha.md",
+      "title": "Rukhel Vossha",
+      "entities": [
+        {
+          "name": "Rukhel Vossha",
+          "alias": "Vossha Marauder"
+        }
+      ]
+    },
+    {
+      "file": "011_vorak_halreth.md",
+      "title": "Vorak Halreth",
+      "entities": [
+        {
+          "name": "Vorak Halreth",
+          "alias": "Halreth Herder"
+        }
+      ]
+    },
+    {
+      "file": "012_zentha_ymvia.md",
+      "title": "Zentha Ymvia",
+      "entities": [
+        {
+          "name": "Zentha Ymvia",
+          "alias": "Ymvia Weaver"
+        }
+      ]
+    },
+    {
+      "file": "013_vessin_kessha.md",
+      "title": "Vessin Kessha",
+      "entities": [
+        {
+          "name": "Vessin Kessha",
+          "alias": "Kessha Stalker"
+        }
+      ]
+    },
+    {
+      "file": "014_halvox_nakvia.md",
+      "title": "Halvox Nakvia",
+      "entities": [
+        {
+          "name": "Halvox Nakvia",
+          "alias": "Nakvia Weaver"
+        }
+      ]
+    },
+    {
+      "file": "015_duvar_tavvia.md",
+      "title": "Duvar Tavvia",
+      "entities": [
+        {
+          "name": "Duvar Tavvia",
+          "alias": "Tavvia Watcher"
+        }
+      ]
+    },
+    {
+      "file": "016_vorak_halsha.md",
+      "title": "Vorak Halsha",
+      "entities": [
+        {
+          "name": "Vorak Halsha",
+          "alias": "Halsha Shaper"
+        }
+      ]
+    },
+    {
+      "file": "017_belthar_ulqir.md",
+      "title": "Belthar Ulqir",
+      "entities": [
+        {
+          "name": "Belthar Ulqir",
+          "alias": "Ulqir Shaper"
+        }
+      ]
+    },
+    {
+      "file": "018_silthar_grevax.md",
+      "title": "Silthar Grevax",
+      "entities": [
+        {
+          "name": "Silthar Grevax",
+          "alias": "Grevax Sapper"
+        }
+      ]
+    },
+    {
+      "file": "019_morvek_kesreth.md",
+      "title": "Morvek Kesreth",
+      "entities": [
+        {
+          "name": "Morvek Kesreth",
+          "alias": "Kesreth Brooder"
+        }
+      ]
+    },
+    {
+      "file": "020_orune_tavvaska.md",
+      "title": "Orune Tavvaska",
+      "entities": [
+        {
+          "name": "Orune Tavvaska",
+          "alias": "Tavvaska Sifter"
+        }
+      ]
+    },
+    {
+      "file": "021_ostrek_ulsha.md",
+      "title": "Ostrek Ulsha",
+      "entities": [
+        {
+          "name": "Ostrek Ulsha",
+          "alias": "Ulsha Trapper"
+        }
+      ]
+    },
+    {
+      "file": "022_mavrok_morreth.md",
+      "title": "Mavrok Morreth",
+      "entities": [
+        {
+          "name": "Mavrok Morreth",
+          "alias": "Morreth Striker"
+        }
+      ]
+    },
+    {
+      "file": "023_ulmar_kesphis.md",
+      "title": "Ulmar Kesphis",
+      "entities": [
+        {
+          "name": "Ulmar Kesphis",
+          "alias": "Kesphis Skitterer"
+        }
+      ]
+    },
+    {
+      "file": "024_halvox_naknok.md",
+      "title": "Halvox Naknok",
+      "entities": [
+        {
+          "name": "Halvox Naknok",
+          "alias": "Naknok Drifter"
+        }
+      ]
+    },
+    {
+      "file": "025_orune_morvax.md",
+      "title": "Orune Morvax",
+      "entities": [
+        {
+          "name": "Orune Morvax",
+          "alias": "Morvax Roamer"
+        }
+      ]
+    },
+    {
+      "file": "026_rukhel_kolsha.md",
+      "title": "Rukhel Kolsha",
+      "entities": [
+        {
+          "name": "Rukhel Kolsha",
+          "alias": "Kolsha Watcher"
+        }
+      ]
+    },
+    {
+      "file": "027_kessari_ernghor.md",
+      "title": "Kessari Ernghor",
+      "entities": [
+        {
+          "name": "Kessari Ernghor",
+          "alias": "Ernghor Trapper"
+        }
+      ]
+    },
+    {
+      "file": "028_silthar_nakmar.md",
+      "title": "Silthar Nakmar",
+      "entities": [
+        {
+          "name": "Silthar Nakmar",
+          "alias": "Nakmar Swarmer"
+        }
+      ]
+    },
+    {
+      "file": "029_krel_ostnok.md",
+      "title": "Krel Ostnok",
+      "entities": [
+        {
+          "name": "Krel Ostnok",
+          "alias": "Ostnok Stinger"
+        },
+        {
+          "name": "Silthar Grephis",
+          "alias": "Grephis Striker"
+        }
+      ]
+    },
+    {
+      "file": "030_quorin_ondventh.md",
+      "title": "Quorin Ondventh",
+      "entities": [
+        {
+          "name": "Quorin Ondventh",
+          "alias": "Ondventh Darter"
+        }
+      ]
+    },
+    {
+      "file": "031_tavrek_mavvaska.md",
+      "title": "Tavrek Mavvaska",
+      "entities": [
+        {
+          "name": "Tavrek Mavvaska",
+          "alias": "Mavvaska Marauder"
+        }
+      ]
+    },
+    {
+      "file": "032_kessari_sarnok.md",
+      "title": "Kessari Sarnok",
+      "entities": [
+        {
+          "name": "Kessari Sarnok",
+          "alias": "Sarnok Prowler"
+        }
+      ]
+    },
+    {
+      "file": "033_silthar_kavvia.md",
+      "title": "Silthar Kavvia",
+      "entities": [
+        {
+          "name": "Silthar Kavvia",
+          "alias": "Kavvia Striker"
+        }
+      ]
+    },
+    {
+      "file": "034_naktoi_vesreth.md",
+      "title": "Naktoi Vesreth",
+      "entities": [
+        {
+          "name": "Naktoi Vesreth",
+          "alias": "Vesreth Sifter"
+        }
+      ]
+    },
+    {
+      "file": "035_kavrik_dureth.md",
+      "title": "Kavrik Dureth",
+      "entities": [
+        {
+          "name": "Kavrik Dureth",
+          "alias": "Dureth Herder"
+        }
+      ]
+    },
+    {
+      "file": "036_vessin_tavvax.md",
+      "title": "Vessin Tavvax",
+      "entities": [
+        {
+          "name": "Vessin Tavvax",
+          "alias": "Tavvax Brooder"
+        }
+      ]
+    },
+    {
+      "file": "037_mavrok_rukreth.md",
+      "title": "Mavrok Rukreth",
+      "entities": [
+        {
+          "name": "Mavrok Rukreth",
+          "alias": "Rukreth Skulker"
+        }
+      ]
+    },
+    {
+      "file": "038_ezhara_ithvaska.md",
+      "title": "Ezhara Ithvaska",
+      "entities": [
+        {
+          "name": "Ezhara Ithvaska",
+          "alias": "Ithvaska Weaver"
+        }
+      ]
+    },
+    {
+      "file": "039_vorak_silnok.md",
+      "title": "Vorak Silnok",
+      "entities": [
+        {
+          "name": "Vorak Silnok",
+          "alias": "Silnok Trapper"
+        }
+      ]
+    },
+    {
+      "file": "040_naktoi_duphis.md",
+      "title": "Naktoi Duphis",
+      "entities": [
+        {
+          "name": "Naktoi Duphis",
+          "alias": "Duphis Sapper"
+        }
+      ]
+    },
+    {
+      "file": "041_kavrik_quoqir.md",
+      "title": "Kavrik Quoqir",
+      "entities": [
+        {
+          "name": "Kavrik Quoqir",
+          "alias": "Quoqir Howler"
+        }
+      ]
+    },
+    {
+      "file": "042_ostrek_ernsha.md",
+      "title": "Ostrek Ernsha",
+      "entities": [
+        {
+          "name": "Ostrek Ernsha",
+          "alias": "Ernsha Shaper"
+        }
+      ]
+    },
+    {
+      "file": "043_ostrek_sarvax.md",
+      "title": "Ostrek Sarvax",
+      "entities": [
+        {
+          "name": "Ostrek Sarvax",
+          "alias": "Sarvax Lurker"
+        }
+      ]
+    },
+    {
+      "file": "044_kavrik_dukoth.md",
+      "title": "Kavrik Dukoth",
+      "entities": [
+        {
+          "name": "Kavrik Dukoth",
+          "alias": "Dukoth Stalker"
+        }
+      ]
+    },
+    {
+      "file": "045_ymrik_vesmar.md",
+      "title": "Ymrik Vesmar",
+      "entities": [
+        {
+          "name": "Ymrik Vesmar",
+          "alias": "Vesmar Trapper"
+        }
+      ]
+    },
+    {
+      "file": "046_ulmar_ostreth.md",
+      "title": "Ulmar Ostreth",
+      "entities": [
+        {
+          "name": "Ulmar Ostreth",
+          "alias": "Ostreth Warden"
+        }
+      ]
+    },
+    {
+      "file": "047_belthar_thalphis.md",
+      "title": "Belthar Thalphis",
+      "entities": [
+        {
+          "name": "Belthar Thalphis",
+          "alias": "Thalphis Marauder"
+        }
+      ]
+    },
+    {
+      "file": "048_sarnel_zenkoth.md",
+      "title": "Sarnel Zenkoth",
+      "entities": [
+        {
+          "name": "Sarnel Zenkoth",
+          "alias": "Zenkoth Shambler"
+        },
+        {
+          "name": "Ostrek Varsha",
+          "alias": "Varsha Stalker"
+        }
+      ]
+    },
+    {
+      "file": "049_ezhara_ithkoth.md",
+      "title": "Ezhara Ithkoth",
+      "entities": [
+        {
+          "name": "Drazen Vesvia",
+          "alias": "Vesvia Marauder"
+        },
+        {
+          "name": "Ezhara Ithkoth",
+          "alias": "Ithkoth Prowler"
+        }
+      ]
+    },
+    {
+      "file": "050_sarnel_draventh.md",
+      "title": "Sarnel Draventh",
+      "entities": [
+        {
+          "name": "Sarnel Draventh",
+          "alias": "Draventh Skitterer"
+        }
+      ]
+    },
+    {
+      "file": "051_rukhel_vosnok.md",
+      "title": "Rukhel Vosnok",
+      "entities": [
+        {
+          "name": "Rukhel Vosnok",
+          "alias": "Vosnok Skulker"
+        }
+      ]
+    },
+    {
+      "file": "052_ezhara_tavventh.md",
+      "title": "Ezhara Tavventh",
+      "entities": [
+        {
+          "name": "Ezhara Tavventh",
+          "alias": "Tavventh Sentinel"
+        }
+      ]
+    },
+    {
+      "file": "053_kessari_belvaska.md",
+      "title": "Kessari Belvaska",
+      "entities": [
+        {
+          "name": "Kessari Belvaska",
+          "alias": "Belvaska Minder"
+        }
+      ]
+    },
+    {
+      "file": "054_duvar_tavqir.md",
+      "title": "Duvar Tavqir",
+      "entities": [
+        {
+          "name": "Duvar Tavqir",
+          "alias": "Tavqir Swarmer"
+        }
+      ]
+    },
+    {
+      "file": "055_krel_ymventh.md",
+      "title": "Krel Ymventh",
+      "entities": [
+        {
+          "name": "Krel Ymventh",
+          "alias": "Ymventh Minder"
+        }
+      ]
+    },
+    {
+      "file": "056_krel_grekoth.md",
+      "title": "Krel Grekoth",
+      "entities": [
+        {
+          "name": "Krel Grekoth",
+          "alias": "Grekoth Brooder"
+        }
+      ]
+    },
+    {
+      "file": "057_quorin_ostvax.md",
+      "title": "Quorin Ostvax",
+      "entities": [
+        {
+          "name": "Quorin Ostvax",
+          "alias": "Ostvax Brooder"
+        }
+      ]
+    },
+    {
+      "file": "058_grevan_vesvax.md",
+      "title": "Grevan Vesvax",
+      "entities": [
+        {
+          "name": "Grevan Vesvax",
+          "alias": "Vesvax Sentinel"
+        },
+        {
+          "name": "Grevan Krelvia",
+          "alias": "Krelvia Keeper"
+        },
+        {
+          "name": "Ymrik Orreth",
+          "alias": "Orreth Darter"
+        }
+      ]
+    },
+    {
+      "file": "059_ostrek_sarghor.md",
+      "title": "Ostrek Sarghor",
+      "entities": [
+        {
+          "name": "Ostrek Sarghor",
+          "alias": "Sarghor Glider"
+        }
+      ]
+    },
+    {
+      "file": "060_naktoi_krelkoth.md",
+      "title": "Naktoi Krelkoth",
+      "entities": [
+        {
+          "name": "Naktoi Krelkoth",
+          "alias": "Krelkoth Burrower"
+        }
+      ]
+    },
+    {
+      "file": "061_grevan_ostmar.md",
+      "title": "Grevan Ostmar",
+      "entities": [
+        {
+          "name": "Grevan Ostmar",
+          "alias": "Ostmar Herder"
+        }
+      ]
+    },
+    {
+      "file": "062_drazen_mavsha.md",
+      "title": "Drazen Mavsha",
+      "entities": [
+        {
+          "name": "Drazen Mavsha",
+          "alias": "Mavsha Darter"
+        }
+      ]
+    },
+    {
+      "file": "063_mavrok_drakoth.md",
+      "title": "Mavrok Drakoth",
+      "entities": [
+        {
+          "name": "Mavrok Drakoth",
+          "alias": "Drakoth Drifter"
+        }
+      ]
+    },
+    {
+      "file": "064_morvek_zenvax.md",
+      "title": "Morvek Zenvax",
+      "entities": [
+        {
+          "name": "Morvek Zenvax",
+          "alias": "Zenvax Shambler"
+        }
+      ]
+    },
+    {
+      "file": "065_krel_vosphis.md",
+      "title": "Krel Vosphis",
+      "entities": [
+        {
+          "name": "Krel Vosphis",
+          "alias": "Vosphis Sifter"
+        }
+      ]
+    },
+    {
+      "file": "066_drazen_quokoth.md",
+      "title": "Drazen Quokoth",
+      "entities": [
+        {
+          "name": "Drazen Quokoth",
+          "alias": "Quokoth Marauder"
+        }
+      ]
+    },
+    {
+      "file": "067_orune_morvaska.md",
+      "title": "Orune Morvaska",
+      "entities": [
+        {
+          "name": "Orune Morvaska",
+          "alias": "Morvaska Stalker"
+        }
+      ]
+    },
+    {
+      "file": "068_sarnel_halvaska.md",
+      "title": "Sarnel Halvaska",
+      "entities": [
+        {
+          "name": "Sarnel Halvaska",
+          "alias": "Halvaska Watcher"
+        }
+      ]
+    },
+    {
+      "file": "069_kessari_dramar.md",
+      "title": "Kessari Dramar",
+      "entities": [
+        {
+          "name": "Kessari Dramar",
+          "alias": "Dramar Seeder"
+        }
+      ]
+    },
+    {
+      "file": "070_rukhel_mavventh.md",
+      "title": "Rukhel Mavventh",
+      "entities": [
+        {
+          "name": "Ymrik Varvaska",
+          "alias": "Varvaska Brooder"
+        },
+        {
+          "name": "Rukhel Mavventh",
+          "alias": "Mavventh Trapper"
+        }
+      ]
+    },
+    {
+      "file": "071_belthar_ernqir.md",
+      "title": "Belthar Ernqir",
+      "entities": [
+        {
+          "name": "Belthar Ernqir",
+          "alias": "Ernqir Shambler"
+        }
+      ]
+    },
+    {
+      "file": "072_tavrek_ezhreth.md",
+      "title": "Tavrek Ezhreth",
+      "entities": [
+        {
+          "name": "Tavrek Ezhreth",
+          "alias": "Ezhreth Trapper"
+        }
+      ]
+    },
+    {
+      "file": "073_naktoi_quovax.md",
+      "title": "Naktoi Quovax",
+      "entities": [
+        {
+          "name": "Naktoi Quovax",
+          "alias": "Quovax Marksman"
+        }
+      ]
+    },
+    {
+      "file": "074_ezhara_silventh.md",
+      "title": "Ezhara Silventh",
+      "entities": [
+        {
+          "name": "Ezhara Silventh",
+          "alias": "Silventh Drifter"
+        }
+      ]
+    },
+    {
+      "file": "075_morvek_ithventh.md",
+      "title": "Morvek Ithventh",
+      "entities": [
+        {
+          "name": "Morvek Ithventh",
+          "alias": "Ithventh Stalker"
+        }
+      ]
+    },
+    {
+      "file": "076_ymrik_krelsha.md",
+      "title": "Ymrik Krelsha",
+      "entities": [
+        {
+          "name": "Ymrik Krelsha",
+          "alias": "Krelsha Burrower"
+        }
+      ]
+    },
+    {
+      "file": "077_quorin_kesvax.md",
+      "title": "Quorin Kesvax",
+      "entities": [
+        {
+          "name": "Quorin Kesvax",
+          "alias": "Kesvax Drifter"
+        }
+      ]
+    },
+    {
+      "file": "078_silthar_vosreth.md",
+      "title": "Silthar Vosreth",
+      "entities": [
+        {
+          "name": "Silthar Vosreth",
+          "alias": "Vosreth Stinger"
+        }
+      ]
+    },
+    {
+      "file": "079_ymrik_dumar.md",
+      "title": "Ymrik Dumar",
+      "entities": [
+        {
+          "name": "Ymrik Dumar",
+          "alias": "Dumar Roamer"
+        }
+      ]
+    },
+    {
+      "file": "080_rukhel_ymphis.md",
+      "title": "Rukhel Ymphis",
+      "entities": [
+        {
+          "name": "Rukhel Ymphis",
+          "alias": "Ymphis Sapper"
+        }
+      ]
+    },
+    {
+      "file": "081_mavrok_dravaska.md",
+      "title": "Mavrok Dravaska",
+      "entities": [
+        {
+          "name": "Krel Ymvax",
+          "alias": "Ymvax Watcher"
+        },
+        {
+          "name": "Ostrek Thalkoth",
+          "alias": "Thalkoth Stinger"
+        },
+        {
+          "name": "Mavrok Dravaska",
+          "alias": "Dravaska Darter"
+        }
+      ]
+    },
+    {
+      "file": "082_rukhel_voskoth.md",
+      "title": "Rukhel Voskoth",
+      "entities": [
+        {
+          "name": "Rukhel Voskoth",
+          "alias": "Voskoth Seeder"
+        }
+      ]
+    },
+    {
+      "file": "083_quorin_ezhventh.md",
+      "title": "Quorin Ezhventh",
+      "entities": [
+        {
+          "name": "Quorin Ezhventh",
+          "alias": "Ezhventh Sentinel"
+        }
+      ]
+    },
+    {
+      "file": "084_ostrek_ernvax.md",
+      "title": "Ostrek Ernvax",
+      "entities": [
+        {
+          "name": "Ostrek Ernvax",
+          "alias": "Ernvax Prowler"
+        }
+      ]
+    },
+    {
+      "file": "085_ostrek_thalvaska.md",
+      "title": "Ostrek Thalvaska",
+      "entities": [
+        {
+          "name": "Ostrek Thalvaska",
+          "alias": "Thalvaska Shambler"
+        }
+      ]
+    },
+    {
+      "file": "086_belthar_ezhvax.md",
+      "title": "Belthar Ezhvax",
+      "entities": [
+        {
+          "name": "Belthar Ezhvax",
+          "alias": "Ezhvax Sentinel"
+        }
+      ]
+    },
+    {
+      "file": "087_silthar_halvax.md",
+      "title": "Silthar Halvax",
+      "entities": [
+        {
+          "name": "Silthar Halvax",
+          "alias": "Halvax Keeper"
+        }
+      ]
+    },
+    {
+      "file": "088_halvox_ymkoth.md",
+      "title": "Halvox Ymkoth",
+      "entities": [
+        {
+          "name": "Halvox Ymkoth",
+          "alias": "Ymkoth Marksman"
+        }
+      ]
+    },
+    {
+      "file": "089_sarnel_zenvia.md",
+      "title": "Sarnel Zenvia",
+      "entities": [
+        {
+          "name": "Sarnel Zenvia",
+          "alias": "Zenvia Stalker"
+        }
+      ]
+    },
+    {
+      "file": "090_kavrik_sarsha.md",
+      "title": "Kavrik Sarsha",
+      "entities": [
+        {
+          "name": "Kavrik Sarsha",
+          "alias": "Sarsha Stalker"
+        }
+      ]
+    },
+    {
+      "file": "091_grevan_duvia.md",
+      "title": "Grevan Duvia",
+      "entities": [
+        {
+          "name": "Grevan Duvia",
+          "alias": "Duvia Brooder"
+        }
+      ]
+    },
+    {
+      "file": "092_halvox_nakphis.md",
+      "title": "Halvox Nakphis",
+      "entities": [
+        {
+          "name": "Halvox Nakphis",
+          "alias": "Nakphis Trapper"
+        }
+      ]
+    },
+    {
+      "file": "093_vorak_ithqir.md",
+      "title": "Vorak Ithqir",
+      "entities": [
+        {
+          "name": "Vorak Ithqir",
+          "alias": "Ithqir Trapper"
+        }
+      ]
+    },
+    {
+      "file": "094_morvek_halvia.md",
+      "title": "Morvek Halvia",
+      "entities": [
+        {
+          "name": "Morvek Halvia",
+          "alias": "Halvia Sifter"
+        }
+      ]
+    },
+    {
+      "file": "095_krel_ostphis.md",
+      "title": "Krel Ostphis",
+      "entities": [
+        {
+          "name": "Krel Ostphis",
+          "alias": "Ostphis Roamer"
+        }
+      ]
+    },
+    {
+      "file": "096_belthar_ezhphis.md",
+      "title": "Belthar Ezhphis",
+      "entities": [
+        {
+          "name": "Belthar Ezhphis",
+          "alias": "Ezhphis Stalker"
+        }
+      ]
+    },
+    {
+      "file": "097_silthar_nakvax.md",
+      "title": "Silthar Nakvax",
+      "entities": [
+        {
+          "name": "Silthar Nakvax",
+          "alias": "Nakvax Marauder"
+        }
+      ]
+    },
+    {
+      "file": "098_ezhara_ithnok.md",
+      "title": "Ezhara Ithnok",
+      "entities": [
+        {
+          "name": "Ezhara Ithnok",
+          "alias": "Ithnok Howler"
+        }
+      ]
+    },
+    {
+      "file": "099_ostrek_grevaska.md",
+      "title": "Ostrek Grevaska",
+      "entities": [
+        {
+          "name": "Ostrek Grevaska",
+          "alias": "Grevaska Marauder"
+        }
+      ]
+    },
+    {
+      "file": "100_orune_morghor.md",
+      "title": "Orune Morghor",
+      "entities": [
+        {
+          "name": "Orune Morghor",
+          "alias": "Morghor Marksman"
+        }
+      ]
+    },
+    {
+      "file": "101_vorak_dravia.md",
+      "title": "Vorak Dravia",
+      "entities": [
+        {
+          "name": "Vorak Dravia",
+          "alias": "Dravia Trapper"
+        }
+      ]
+    },
+    {
+      "file": "102_quorin_vessha.md",
+      "title": "Quorin Vessha",
+      "entities": [
+        {
+          "name": "Quorin Vessha",
+          "alias": "Vessha Shaper"
+        }
+      ]
+    },
+    {
+      "file": "103_naktoi_orphis.md",
+      "title": "Naktoi Orphis",
+      "entities": [
+        {
+          "name": "Naktoi Orphis",
+          "alias": "Orphis Skulker"
+        }
+      ]
+    },
+    {
+      "file": "104_sarnel_halqir.md",
+      "title": "Sarnel Halqir",
+      "entities": [
+        {
+          "name": "Sarnel Halqir",
+          "alias": "Halqir Shambler"
+        }
+      ]
+    },
+    {
+      "file": "105_zentha_ymnok.md",
+      "title": "Zentha Ymnok",
+      "entities": [
+        {
+          "name": "Halvox Gresha",
+          "alias": "Gresha Howler"
+        },
+        {
+          "name": "Zentha Ymnok",
+          "alias": "Ymnok Weaver"
+        }
+      ]
+    },
+    {
+      "file": "106_belthar_morventh.md",
+      "title": "Belthar Morventh",
+      "entities": [
+        {
+          "name": "Belthar Morventh",
+          "alias": "Morventh Stinger"
+        }
+      ]
+    },
+    {
+      "file": "107_thalven_mavphis.md",
+      "title": "Thalven Mavphis",
+      "entities": [
+        {
+          "name": "Thalven Mavphis",
+          "alias": "Mavphis Howler"
+        }
+      ]
+    },
+    {
+      "file": "108_ymrik_varnok.md",
+      "title": "Ymrik Varnok",
+      "entities": [
+        {
+          "name": "Ymrik Varnok",
+          "alias": "Varnok Trapper"
+        }
+      ]
+    },
+    {
+      "file": "109_ymrik_vesventh.md",
+      "title": "Ymrik Vesventh",
+      "entities": [
+        {
+          "name": "Ymrik Vesventh",
+          "alias": "Vesventh Drifter"
+        }
+      ]
+    },
+    {
+      "file": "110_halvox_kavkoth.md",
+      "title": "Halvox Kavkoth",
+      "entities": [
+        {
+          "name": "Halvox Kavkoth",
+          "alias": "Kavkoth Herder"
+        }
+      ]
+    },
+    {
+      "file": "111_naktoi_varvia.md",
+      "title": "Naktoi Varvia",
+      "entities": [
+        {
+          "name": "Naktoi Varvia",
+          "alias": "Varvia Herder"
+        }
+      ]
+    },
+    {
+      "file": "112_morvek_halmar.md",
+      "title": "Morvek Halmar",
+      "entities": [
+        {
+          "name": "Morvek Halmar",
+          "alias": "Halmar Prowler"
+        }
+      ]
+    },
+    {
+      "file": "113_rukhel_ymqir.md",
+      "title": "Rukhel Ymqir",
+      "entities": [
+        {
+          "name": "Rukhel Ymqir",
+          "alias": "Ymqir Lurker"
+        }
+      ]
+    },
+    {
+      "file": "114_ymrik_quonok.md",
+      "title": "Ymrik Quonok",
+      "entities": [
+        {
+          "name": "Ymrik Quonok",
+          "alias": "Quonok Skulker"
+        }
+      ]
+    },
+    {
+      "file": "115_krel_ondnok.md",
+      "title": "Krel Ondnok",
+      "entities": [
+        {
+          "name": "Krel Ondnok",
+          "alias": "Ondnok Stinger"
+        }
+      ]
+    },
+    {
+      "file": "116_kavrik_quoventh.md",
+      "title": "Kavrik Quoventh",
+      "entities": [
+        {
+          "name": "Kavrik Quoventh",
+          "alias": "Quoventh Lurker"
+        }
+      ]
+    },
+    {
+      "file": "117_sarnel_zenvaska.md",
+      "title": "Sarnel Zenvaska",
+      "entities": [
+        {
+          "name": "Sarnel Zenvaska",
+          "alias": "Zenvaska Skulker"
+        }
+      ]
+    },
+    {
+      "file": "118_belthar_mavqir.md",
+      "title": "Belthar Mavqir",
+      "entities": [
+        {
+          "name": "Belthar Mavqir",
+          "alias": "Mavqir Burrower"
+        }
+      ]
+    },
+    {
+      "file": "119_ymrik_dunok.md",
+      "title": "Ymrik Dunok",
+      "entities": [
+        {
+          "name": "Ymrik Dunok",
+          "alias": "Dunok Minder"
+        }
+      ]
+    },
+    {
+      "file": "120_drazen_orkoth.md",
+      "title": "Drazen Orkoth",
+      "entities": [
+        {
+          "name": "Drazen Orkoth",
+          "alias": "Orkoth Lurker"
+        }
+      ]
+    },
+    {
+      "file": "121_zentha_nakvaska.md",
+      "title": "Zentha Nakvaska",
+      "entities": [
+        {
+          "name": "Zentha Nakvaska",
+          "alias": "Nakvaska Herder"
+        }
+      ]
+    },
+    {
+      "file": "122_quorin_tavmar.md",
+      "title": "Quorin Tavmar",
+      "entities": [
+        {
+          "name": "Quorin Tavmar",
+          "alias": "Tavmar Sentinel"
+        }
+      ]
+    },
+    {
+      "file": "123_ezhara_silphis.md",
+      "title": "Ezhara Silphis",
+      "entities": [
+        {
+          "name": "Ezhara Silphis",
+          "alias": "Silphis Swarmer"
+        }
+      ]
+    },
+    {
+      "file": "124_quorin_varphis.md",
+      "title": "Quorin Varphis",
+      "entities": [
+        {
+          "name": "Kessari Sarvia",
+          "alias": ""
+        },
+        {
+          "name": "Quorin Varphis",
+          "alias": "Varphis Warden"
+        }
+      ]
+    },
+    {
+      "file": "125_zentha_ymghor.md",
+      "title": "Zentha Ymghor",
+      "entities": [
+        {
+          "name": "Quorin Mornok",
+          "alias": "Mornok Glider"
+        },
+        {
+          "name": "Zentha Ymghor",
+          "alias": "Ymghor Seeder"
+        }
+      ]
+    },
+    {
+      "file": "126_quorin_keskoth.md",
+      "title": "Quorin Keskoth",
+      "entities": [
+        {
+          "name": "Quorin Keskoth",
+          "alias": "Keskoth Lurker"
+        }
+      ]
+    },
+    {
+      "file": "127_vorak_nakkoth.md",
+      "title": "Vorak Nakkoth",
+      "entities": [
+        {
+          "name": "Vorak Nakkoth",
+          "alias": "Nakkoth Skitterer"
+        }
+      ]
+    },
+    {
+      "file": "128_rukhel_kolvax.md",
+      "title": "Rukhel Kolvax",
+      "entities": [
+        {
+          "name": "Rukhel Kolvax",
+          "alias": "Kolvax Stinger"
+        }
+      ]
+    },
+    {
+      "file": "129_halvox_kolqir.md",
+      "title": "Halvox Kolqir",
+      "entities": [
+        {
+          "name": "Halvox Kolqir",
+          "alias": "Kolqir Striker"
+        }
+      ]
+    },
+    {
+      "file": "130_quorin_ondqir.md",
+      "title": "Quorin Ondqir",
+      "entities": [
+        {
+          "name": "Quorin Ondqir",
+          "alias": "Ondqir Herder"
+        }
+      ]
+    },
+    {
+      "file": "131_morvek_morvia.md",
+      "title": "Morvek Morvia",
+      "entities": [
+        {
+          "name": "Morvek Morvia",
+          "alias": "Morvia Marauder"
+        }
+      ]
+    },
+    {
+      "file": "132_drazen_duventh.md",
+      "title": "Drazen Duventh",
+      "entities": [
+        {
+          "name": "Drazen Duventh",
+          "alias": "Duventh Striker"
+        }
+      ]
+    },
+    {
+      "file": "133_ulmar_belvax.md",
+      "title": "Ulmar Belvax",
+      "entities": [
+        {
+          "name": "Vessin Tavsha",
+          "alias": "Tavsha Stinger"
+        }
+      ]
+    },
+    {
+      "file": "134_orune_tavghor.md",
+      "title": "Orune Tavghor",
+      "entities": [
+        {
+          "name": "Orune Tavghor",
+          "alias": "Tavghor Brooder"
+        }
+      ]
+    },
+    {
+      "file": "135_rukhel_greventh.md",
+      "title": "Rukhel Greventh",
+      "entities": [
+        {
+          "name": "Rukhel Greventh",
+          "alias": "Greventh Herder"
+        }
+      ]
+    },
+    {
+      "file": "136_sarnel_vosqir.md",
+      "title": "Sarnel Vosqir",
+      "entities": [
+        {
+          "name": "Sarnel Vosqir",
+          "alias": "Vosqir Darter"
+        }
+      ]
+    },
+    {
+      "file": "137_halvox_krelnok.md",
+      "title": "Halvox Krelnok",
+      "entities": [
+        {
+          "name": "Halvox Krelnok",
+          "alias": "Krelnok Prowler"
+        }
+      ]
+    },
+    {
+      "file": "138_grevan_quoghor.md",
+      "title": "Grevan Quoghor",
+      "entities": [
+        {
+          "name": "Grevan Quoghor",
+          "alias": "Quoghor Drifter"
+        }
+      ]
+    },
+    {
+      "file": "139_drazen_krelvaska.md",
+      "title": "Drazen Krelvaska",
+      "entities": [
+        {
+          "name": "Drazen Krelvaska",
+          "alias": "Krelvaska Burrower"
+        }
+      ]
+    },
+    {
+      "file": "140_sarnel_zenqir.md",
+      "title": "Sarnel Zenqir",
+      "entities": [
+        {
+          "name": "Sarnel Zenqir",
+          "alias": "Zenqir Stinger"
+        }
+      ]
+    },
+    {
+      "file": "141_belthar_sarmar.md",
+      "title": "Belthar Sarmar",
+      "entities": [
+        {
+          "name": "Morvek Rukphis",
+          "alias": "Rukphis Drifter"
+        },
+        {
+          "name": "Belthar Sarmar",
+          "alias": "Sarmar Striker"
+        }
+      ]
+    },
+    {
+      "file": "142_thalven_ulmar.md",
+      "title": "Thalven Ulmar",
+      "entities": [
+        {
+          "name": "Thalven Ulmar",
+          "alias": "Ulmar Sentinel"
+        }
+      ]
+    },
+    {
+      "file": "143_tavrek_ymreth.md",
+      "title": "Tavrek Ymreth",
+      "entities": [
+        {
+          "name": "Tavrek Ymreth",
+          "alias": "Ymreth Marauder"
+        }
+      ]
+    },
+    {
+      "file": "144_naktoi_ernreth.md",
+      "title": "Naktoi Ernreth",
+      "entities": [
+        {
+          "name": "Naktoi Ernreth",
+          "alias": "Ernreth Marksman"
+        }
+      ]
+    },
+    {
+      "file": "145_vessin_kesmar.md",
+      "title": "Vessin Kesmar",
+      "entities": [
+        {
+          "name": "Vessin Kesmar",
+          "alias": "Kesmar Stinger"
+        }
+      ]
+    },
+    {
+      "file": "146_krel_quovaska.md",
+      "title": "Krel Quovaska",
+      "entities": [
+        {
+          "name": "Krel Quovaska",
+          "alias": "Quovaska Drifter"
+        }
+      ]
+    },
+    {
+      "file": "147_vessin_tavkoth.md",
+      "title": "Vessin Tavkoth",
+      "entities": [
+        {
+          "name": "Vessin Tavkoth",
+          "alias": "Tavkoth Trapper"
+        }
+      ]
+    },
+    {
+      "file": "148_kessari_ithvax.md",
+      "title": "Kessari Ithvax",
+      "entities": [
+        {
+          "name": "Halvox Ymvaska",
+          "alias": "Ymvaska Drifter"
+        },
+        {
+          "name": "Kessari Ithvax",
+          "alias": "Ithvax Trapper"
+        }
+      ]
+    },
+    {
+      "file": "149_grevan_rukkoth.md",
+      "title": "Grevan Rukkoth",
+      "entities": [
+        {
+          "name": "Grevan Rukkoth",
+          "alias": "Rukkoth Skitterer"
+        }
+      ]
+    }
+  ]
+}

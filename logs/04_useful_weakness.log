@@ -1,0 +1,18 @@
+Модель LLM: gpt-6-luna
+Индекс: 299 чанков
+Защита (pre-prompt / post-фильтр / очистка): use_preprompt: вкл, use_postfilter: вкл, use_sanitize: вкл
+Загружаю энкодер BAAI/bge-m3...
+
+>>> Вопрос: What does the Weakness status effect do to creatures?
+Найдено чанков: 5 из 5 (порог 0.4)
+  [0.543] 001_ostrek_ulkoth.md (чанк 1)
+  [0.527] 001_ostrek_ulkoth.md (чанк 0)
+  [0.500] 137_halvox_krelnok.md (чанк 0)
+  [0.499] 011_vorak_halreth.md (чанк 0)
+  [0.498] 072_tavrek_ezhreth.md (чанк 2)
+Reasoning:
+1. The question asks what the Weakness status effect does to creatures.
+2. The fragment states that Weakness causes creatures to take 10× damage from most sources.
+3. So it greatly increases damage taken.
+
+Answer: Weakness causes creatures to take 10× damage from most sources [001_ostrek_ulkoth.md, chunk 0].
