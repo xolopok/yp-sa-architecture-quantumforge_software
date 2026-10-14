@@ -1,0 +1,18 @@
+Модель LLM: gpt-6-luna
+Индекс: 299 чанков
+Защита (pre-prompt / post-фильтр / очистка): use_preprompt: вкл, use_postfilter: вкл, use_sanitize: вкл
+Загружаю энкодер BAAI/bge-m3...
+
+>>> Вопрос: Where does the shielded flying drone spawn?
+Найдено чанков: 5 из 5 (порог 0.4)
+  [0.584] 136_sarnel_vosqir.md (чанк 0)
+  [0.581] 060_naktoi_krelkoth.md (чанк 0)
+  [0.530] 032_kessari_sarnok.md (чанк 0)
+  [0.526] 042_ostrek_ernsha.md (чанк 0)
+  [0.526] 062_drazen_mavsha.md (чанк 0)
+Шаги рассуждения:
+1. Вопрос спрашивает места появления щитованного летающего дрона.
+2. Фрагменты описывают два подходящих существа: Naktoi Krelkoth и Sarnel Vosqir.
+3. Поэтому приведу места появления обоих, чтобы не смешивать их.
+
+Ответ: Naktoi Krelkoth появляется в Fungal Caverns, The Vault, Frozen Vault и The Tower [060_naktoi_krelkoth.md, чанк 0]. Sarnel Vosqir изначально появляется в Frozen Vault, The Tower, Power Plant и Silthar Grephis Lair; в NG+ и NG++ доступны дополнительные места появления [136_sarnel_vosqir.md, чанк 0].

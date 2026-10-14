@@ -1,0 +1,18 @@
+Модель LLM: gpt-6-luna
+Индекс: 299 чанков
+Защита (pre-prompt / post-фильтр / очистка): use_preprompt: вкл, use_postfilter: вкл, use_sanitize: вкл
+Загружаю энкодер BAAI/bge-m3...
+
+>>> Вопрос: Где появляется Zentha Nakqir?
+Найдено чанков: 5 из 5 (порог 0.4)
+  [0.580] 121_zentha_nakvaska.md (чанк 0)
+  [0.546] 001_ostrek_ulkoth.md (чанк 0)
+  [0.546] 125_zentha_ymghor.md (чанк 0)
+  [0.533] 002_zentha_kavsha.md (чанк 0)
+  [0.510] 071_belthar_ernqir.md (чанк 0)
+Шаги рассуждения:
+1. Спрашивают о местах появления Zentha Nakqir.
+2. В фрагменте [2] для Zentha Nakqir указаны Pyramid ngplus и Overgrown Cavern.
+3. Следовательно, он появляется в этих двух местах.
+
+Ответ: Zentha Nakqir появляется в Pyramid ngplus и Overgrown Cavern [001_ostrek_ulkoth.md, чанк 0].

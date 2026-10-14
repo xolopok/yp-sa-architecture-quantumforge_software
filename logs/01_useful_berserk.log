@@ -1,0 +1,17 @@
+Модель LLM: gpt-6-luna
+Индекс: 299 чанков
+Защита (pre-prompt / post-фильтр / очистка): use_preprompt: вкл, use_postfilter: вкл, use_sanitize: вкл
+Загружаю энкодер BAAI/bge-m3...
+
+>>> Вопрос: Какой дух накладывает эффект берсерк?
+Найдено чанков: 5 из 5 (порог 0.4)
+  [0.548] 001_ostrek_ulkoth.md (чанк 0)
+  [0.533] 001_ostrek_ulkoth.md (чанк 1)
+  [0.502] 072_tavrek_ezhreth.md (чанк 2)
+  [0.476] 019_morvek_kesreth.md (чанк 0)
+  [0.465] 076_ymrik_krelsha.md (чанк 0)
+Шаги рассуждения:
+1. Спрашивают, какой дух накладывает эффект Berserk.
+2. Во фрагменте [1] указано, что Zentha Nakqir накладывает Berserk.
+3. Следовательно, это Zentha Nakqir.
+Ответ: Zentha Nakqir, также известный как Nakqir Warden [001_ostrek_ulkoth.md, чанк 0].
