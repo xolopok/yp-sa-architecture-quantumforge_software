@@ -1,0 +1,2950 @@
+{
+  "source_universe": "Noita",
+  "universe_term": "Thalvia",
+  "scheme": "у каждой сущности два термина: name -> '<префикс> <корень>', alias -> '<корень> <роль>'; одинаковые alias получают один термин-alias",
+  "entities": [
+    {
+      "name": "Alkemistin Varjo",
+      "alias": "Alchemist's Shadow",
+      "name_term": "Halvox Ymvaska",
+      "alias_term": "Ymvaska Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Ylialkemisti"
+      ]
+    },
+    {
+      "name": "Amppari",
+      "alias": "Wasp",
+      "name_term": "Zentha Kavsha",
+      "alias_term": "Kavsha Weaver",
+      "shared_alias": false,
+      "pages": [
+        "Amppari"
+      ]
+    },
+    {
+      "name": "Ankka",
+      "alias": "Duck",
+      "name_term": "Quorin Belventh",
+      "alias_term": "Belventh Shambler",
+      "shared_alias": false,
+      "pages": [
+        "Ankka"
+      ]
+    },
+    {
+      "name": "Eldari",
+      "alias": "Hellfire Mage",
+      "name_term": "Halvox Ymmar",
+      "alias_term": "Ymmar Shaper",
+      "shared_alias": false,
+      "pages": [
+        "Eldari"
+      ]
+    },
+    {
+      "name": "Elvytyskristalli",
+      "alias": "Recovery Crystal",
+      "name_term": "Vorak Silghor",
+      "alias_term": "Silghor Minder",
+      "shared_alias": false,
+      "pages": [
+        "Elvytyskristalli"
+      ]
+    },
+    {
+      "name": "Epäalkemisti",
+      "alias": "Non-alchemist",
+      "name_term": "Drazen Orghor",
+      "alias_term": "Orghor Sifter",
+      "shared_alias": false,
+      "pages": [
+        "Epäalkemisti"
+      ]
+    },
+    {
+      "name": "Eväkäs",
+      "alias": "Fish",
+      "name_term": "Kavrik Varvax",
+      "alias_term": "Varvax Shambler",
+      "shared_alias": false,
+      "pages": [
+        "Eväkäs"
+      ]
+    },
+    {
+      "name": "Haamu",
+      "alias": "Wraith",
+      "name_term": "Kessari Mavvax",
+      "alias_term": "Mavvax Burrower",
+      "shared_alias": false,
+      "pages": [
+        "Haamu"
+      ]
+    },
+    {
+      "name": "Haamukivi",
+      "alias": "Ghost Crystal",
+      "name_term": "Rukhel Vossha",
+      "alias_term": "Vossha Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Haamukivi"
+      ]
+    },
+    {
+      "name": "Haavoittajamestari",
+      "alias": "Master of Wounding",
+      "name_term": "Vorak Halreth",
+      "alias_term": "Halreth Herder",
+      "shared_alias": false,
+      "pages": [
+        "Haavoittajamestari"
+      ]
+    },
+    {
+      "name": "Hahmonvaihtaja",
+      "alias": "Shapechanger",
+      "name_term": "Zentha Ymvia",
+      "alias_term": "Ymvia Weaver",
+      "shared_alias": false,
+      "pages": [
+        "Hahmonvaihtaja"
+      ]
+    },
+    {
+      "name": "Happonuljaska",
+      "alias": "Acid Slime",
+      "name_term": "Vessin Kessha",
+      "alias_term": "Kessha Stalker",
+      "shared_alias": false,
+      "pages": [
+        "Happonuljaska"
+      ]
+    },
+    {
+      "name": "Haulikkohiisi",
+      "alias": "Shotgun Hiisi",
+      "name_term": "Halvox Nakvia",
+      "alias_term": "Nakvia Weaver",
+      "shared_alias": false,
+      "pages": [
+        "Haulikkohiisi"
+      ]
+    },
+    {
+      "name": "Heinäsirkka",
+      "alias": "Cricket",
+      "name_term": "Duvar Tavvia",
+      "alias_term": "Tavvia Watcher",
+      "shared_alias": false,
+      "pages": [
+        "Heinäsirkka"
+      ]
+    },
+    {
+      "name": "Helvetin sylkijä",
+      "alias": "Hell Spitter",
+      "name_term": "Vorak Halsha",
+      "alias_term": "Halsha Shaper",
+      "shared_alias": false,
+      "pages": [
+        "Helvetin sylkijä"
+      ]
+    },
+    {
+      "name": "Helvetinkatse",
+      "alias": "Hell Gazer",
+      "name_term": "Belthar Ulqir",
+      "alias_term": "Ulqir Shaper",
+      "shared_alias": false,
+      "pages": [
+        "Helvetinkatse"
+      ]
+    },
+    {
+      "name": "Helvetinmato",
+      "alias": "Hell Worm",
+      "name_term": "Silthar Grevax",
+      "alias_term": "Grevax Sapper",
+      "shared_alias": false,
+      "pages": [
+        "Helvetinmato"
+      ]
+    },
+    {
+      "name": "Henkevä potu",
+      "alias": "Potion Mimic",
+      "name_term": "Morvek Kesreth",
+      "alias_term": "Kesreth Brooder",
+      "shared_alias": false,
+      "pages": [
+        "Henkevä potu"
+      ]
+    },
+    {
+      "name": "Hiidenkivi",
+      "alias": "Rock Giant",
+      "name_term": "Orune Tavvaska",
+      "alias_term": "Tavvaska Sifter",
+      "shared_alias": false,
+      "pages": [
+        "Hiidenkivi"
+      ]
+    },
+    {
+      "name": "Hohtava hyypiö",
+      "alias": "Glowing Creep",
+      "name_term": "Ostrek Ulsha",
+      "alias_term": "Ulsha Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Hohtava hyypiö"
+      ]
+    },
+    {
+      "name": "Hohtonaamio",
+      "alias": "Glowing Mask",
+      "name_term": "Mavrok Morreth",
+      "alias_term": "Morreth Striker",
+      "shared_alias": false,
+      "pages": [
+        "Hohtonaamio"
+      ]
+    },
+    {
+      "name": "Houre",
+      "alias": "Delirium",
+      "name_term": "Ulmar Kesphis",
+      "alias_term": "Kesphis Skitterer",
+      "shared_alias": false,
+      "pages": [
+        "Houre"
+      ]
+    },
+    {
+      "name": "Huhtasieni",
+      "alias": "Pollen Morel",
+      "name_term": "Halvox Naknok",
+      "alias_term": "Naknok Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Huhtasieni"
+      ]
+    },
+    {
+      "name": "Hurtta",
+      "alias": "Hound",
+      "name_term": "Orune Morvax",
+      "alias_term": "Morvax Roamer",
+      "shared_alias": false,
+      "pages": [
+        "Hurtta"
+      ]
+    },
+    {
+      "name": "Hyypiö",
+      "alias": "Creep",
+      "name_term": "Rukhel Kolsha",
+      "alias_term": "Kolsha Watcher",
+      "shared_alias": false,
+      "pages": [
+        "Hyypiö"
+      ]
+    },
+    {
+      "name": "Häive",
+      "alias": "Fade",
+      "name_term": "Morvek Rukphis",
+      "alias_term": "Rukphis Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Unohdettu"
+      ]
+    },
+    {
+      "name": "Häivehiisi",
+      "alias": "Stealth Hiisi",
+      "name_term": "Kessari Ernghor",
+      "alias_term": "Ernghor Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Häivehiisi"
+      ]
+    },
+    {
+      "name": "Hämis",
+      "alias": "Spidey",
+      "name_term": "Silthar Nakmar",
+      "alias_term": "Nakmar Swarmer",
+      "shared_alias": false,
+      "pages": [
+        "Hämis"
+      ]
+    },
+    {
+      "name": "Hämähäkki",
+      "alias": "Spider",
+      "name_term": "Krel Ostnok",
+      "alias_term": "Ostnok Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Hämähäkki"
+      ]
+    },
+    {
+      "name": "Innocent Spirit",
+      "alias": "",
+      "name_term": "Kessari Sarvia",
+      "alias_term": "",
+      "shared_alias": false,
+      "pages": [
+        "Tapion vasalli"
+      ]
+    },
+    {
+      "name": "IT-Tankki",
+      "alias": "Rocket Tank",
+      "name_term": "Quorin Ondventh",
+      "alias_term": "Ondventh Darter",
+      "shared_alias": false,
+      "pages": [
+        "IT-Tankki"
+      ]
+    },
+    {
+      "name": "Jalkamatkatavara",
+      "alias": "Leggy Mimic",
+      "name_term": "Ymrik Varvaska",
+      "alias_term": "Varvaska Brooder",
+      "shared_alias": false,
+      "pages": [
+        "Matkija"
+      ]
+    },
+    {
+      "name": "Jouluhiisi",
+      "alias": "Christmas Hiisi",
+      "name_term": "Tavrek Mavvaska",
+      "alias_term": "Mavvaska Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Jouluhiisi"
+      ]
+    },
+    {
+      "name": "Jäähdytyslaite",
+      "alias": "Icer",
+      "name_term": "Kessari Sarnok",
+      "alias_term": "Sarnok Prowler",
+      "shared_alias": false,
+      "pages": [
+        "Jäähdytyslaite"
+      ]
+    },
+    {
+      "name": "Jäätiö",
+      "alias": "Ice Spirit",
+      "name_term": "Silthar Kavvia",
+      "alias_term": "Kavvia Striker",
+      "shared_alias": false,
+      "pages": [
+        "Jäätiö"
+      ]
+    },
+    {
+      "name": "Kaamo-Aave",
+      "alias": "Depression Spirit",
+      "name_term": "Tavrek Sarreth",
+      "alias_term": "Sarreth Skitterer",
+      "shared_alias": false,
+      "pages": [
+        "Aave"
+      ]
+    },
+    {
+      "name": "Kadotettu alkemisti",
+      "alias": "Damned Alchemist",
+      "name_term": "Kavrik Dureth",
+      "alias_term": "Dureth Herder",
+      "shared_alias": false,
+      "pages": [
+        "Kadotettu alkemisti"
+      ]
+    },
+    {
+      "name": "Kallokärpänen",
+      "alias": "Skull Fly",
+      "name_term": "Vessin Tavvax",
+      "alias_term": "Tavvax Brooder",
+      "shared_alias": false,
+      "pages": [
+        "Kallokärpänen"
+      ]
+    },
+    {
+      "name": "Kallorotta",
+      "alias": "Skull Rat",
+      "name_term": "Mavrok Rukreth",
+      "alias_term": "Rukreth Skulker",
+      "shared_alias": false,
+      "pages": [
+        "Kallorotta"
+      ]
+    },
+    {
+      "name": "Kalmamato",
+      "alias": "Death Worm",
+      "name_term": "Ezhara Ithvaska",
+      "alias_term": "Ithvaska Weaver",
+      "shared_alias": false,
+      "pages": [
+        "Kalmamato"
+      ]
+    },
+    {
+      "name": "Kammolukki",
+      "alias": "Toothy spider",
+      "name_term": "Vorak Silnok",
+      "alias_term": "Silnok Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Kammolukki"
+      ]
+    },
+    {
+      "name": "Kasvoton Lukki",
+      "alias": "Faceless spider",
+      "name_term": "Naktoi Duphis",
+      "alias_term": "Duphis Sapper",
+      "shared_alias": false,
+      "pages": [
+        "Kasvoton Lukki"
+      ]
+    },
+    {
+      "name": "Kauhuhirviö",
+      "alias": "Horror Monster",
+      "name_term": "Kavrik Quoqir",
+      "alias_term": "Quoqir Howler",
+      "shared_alias": false,
+      "pages": [
+        "Kauhuhirviö"
+      ]
+    },
+    {
+      "name": "Kilpihiisi",
+      "alias": "Shield Hiisi",
+      "name_term": "Ostrek Ernsha",
+      "alias_term": "Ernsha Shaper",
+      "shared_alias": false,
+      "pages": [
+        "Kilpihiisi"
+      ]
+    },
+    {
+      "name": "Kirottu kristalli",
+      "alias": "Cursed Crystal",
+      "name_term": "Ostrek Sarvax",
+      "alias_term": "Sarvax Lurker",
+      "shared_alias": false,
+      "pages": [
+        "Kirottu kristalli"
+      ]
+    },
+    {
+      "name": "Kiukkukalma",
+      "alias": "Angry Phantom",
+      "name_term": "Kavrik Dukoth",
+      "alias_term": "Dukoth Stalker",
+      "shared_alias": false,
+      "pages": [
+        "Kiukkukalma"
+      ]
+    },
+    {
+      "name": "Kiukkumöykky",
+      "alias": "Angry Blob",
+      "name_term": "Ymrik Vesmar",
+      "alias_term": "Vesmar Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Kiukkumöykky"
+      ]
+    },
+    {
+      "name": "Kivi",
+      "alias": "Stone",
+      "name_term": "Ulmar Ostreth",
+      "alias_term": "Ostreth Warden",
+      "shared_alias": false,
+      "pages": [
+        "Kivi"
+      ]
+    },
+    {
+      "name": "KK-Tankki",
+      "alias": "Tank",
+      "name_term": "Naktoi Vesreth",
+      "alias_term": "Vesreth Sifter",
+      "shared_alias": false,
+      "pages": [
+        "KK-Tankki"
+      ]
+    },
+    {
+      "name": "Kohdennusmestari",
+      "alias": "Master of Homing",
+      "name_term": "Belthar Thalphis",
+      "alias_term": "Thalphis Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Kohdennusmestari"
+      ]
+    },
+    {
+      "name": "Kokkihiisi",
+      "alias": "Hiisi Chef",
+      "name_term": "Quorin Mornok",
+      "alias_term": "Mornok Glider",
+      "shared_alias": false,
+      "pages": [
+        "Tappurahiisi"
+      ]
+    },
+    {
+      "name": "Kolmisilmä",
+      "alias": "Three-Eye",
+      "name_term": "Sarnel Zenkoth",
+      "alias_term": "Zenkoth Shambler",
+      "shared_alias": false,
+      "pages": [
+        "Kolmisilmä"
+      ]
+    },
+    {
+      "name": "Kolmisilmän apuri",
+      "alias": "Three-Eye's Helper",
+      "name_term": "Ostrek Varsha",
+      "alias_term": "Varsha Stalker",
+      "shared_alias": false,
+      "pages": [
+        "Kolmisilmä"
+      ]
+    },
+    {
+      "name": "Kolmisilmän Koipi",
+      "alias": "Three-Eye's Legs",
+      "name_term": "Ezhara Ithkoth",
+      "alias_term": "Ithkoth Prowler",
+      "shared_alias": false,
+      "pages": [
+        "Kolmisilmän koipi"
+      ]
+    },
+    {
+      "name": "Kolmisilmän Kätyri",
+      "alias": "Three-eye's Minion",
+      "name_term": "Halvox Gresha",
+      "alias_term": "Gresha Howler",
+      "shared_alias": false,
+      "pages": [
+        "Sauvojen tuntija"
+      ]
+    },
+    {
+      "name": "Kolmisilmän silmä",
+      "alias": "Three-Eye's Eye",
+      "name_term": "Sarnel Draventh",
+      "alias_term": "Draventh Skitterer",
+      "shared_alias": false,
+      "pages": [
+        "Kolmisilmän silmä"
+      ]
+    },
+    {
+      "name": "Kolmisilmän sydän",
+      "alias": "Three-Eye's Heart",
+      "name_term": "Rukhel Vosnok",
+      "alias_term": "Vosnok Skulker",
+      "shared_alias": false,
+      "pages": [
+        "Kolmisilmän sydän"
+      ]
+    },
+    {
+      "name": "Konna",
+      "alias": "Toad",
+      "name_term": "Ezhara Tavventh",
+      "alias_term": "Tavventh Sentinel",
+      "shared_alias": false,
+      "pages": [
+        "Konna"
+      ]
+    },
+    {
+      "name": "Korjauslennokki",
+      "alias": "Repair Drone",
+      "name_term": "Kessari Belvaska",
+      "alias_term": "Belvaska Minder",
+      "shared_alias": false,
+      "pages": [
+        "Korjauslennokki"
+      ]
+    },
+    {
+      "name": "Kranuhiisi",
+      "alias": "Hiisi Grenadier",
+      "name_term": "Duvar Tavqir",
+      "alias_term": "Tavqir Swarmer",
+      "shared_alias": false,
+      "pages": [
+        "Kranuhiisi"
+      ]
+    },
+    {
+      "name": "Kummitus",
+      "alias": "Ghost",
+      "name_term": "Krel Ymventh",
+      "alias_term": "Ymventh Minder",
+      "shared_alias": false,
+      "pages": [
+        "Kummitus"
+      ]
+    },
+    {
+      "name": "Kyrmyniska",
+      "alias": "Hunchback",
+      "name_term": "Krel Grekoth",
+      "alias_term": "Grekoth Brooder",
+      "shared_alias": false,
+      "pages": [
+        "Kyrmyniska"
+      ]
+    },
+    {
+      "name": "Laahustussieni",
+      "alias": "Shuffling Fungus",
+      "name_term": "Quorin Ostvax",
+      "alias_term": "Ostvax Brooder",
+      "shared_alias": false,
+      "pages": [
+        "Laahustussieni"
+      ]
+    },
+    {
+      "name": "Lammas",
+      "alias": "Sheep",
+      "name_term": "Grevan Vesvax",
+      "alias_term": "Vesvax Sentinel",
+      "shared_alias": false,
+      "pages": [
+        "Lammas"
+      ]
+    },
+    {
+      "name": "Laser-Tankki",
+      "alias": "Laser Tank",
+      "name_term": "Ostrek Sarghor",
+      "alias_term": "Sarghor Glider",
+      "shared_alias": false,
+      "pages": [
+        "Laser-Tankki"
+      ]
+    },
+    {
+      "name": "Lennokki",
+      "alias": "Drone",
+      "name_term": "Naktoi Krelkoth",
+      "alias_term": "Krelkoth Burrower",
+      "shared_alias": false,
+      "pages": [
+        "Lennokki"
+      ]
+    },
+    {
+      "name": "Lentolammas",
+      "alias": "Flying Sheep",
+      "name_term": "Grevan Krelvia",
+      "alias_term": "Krelvia Keeper",
+      "shared_alias": false,
+      "pages": [
+        "Lammas"
+      ]
+    },
+    {
+      "name": "Lepakko",
+      "alias": "Bat",
+      "name_term": "Grevan Ostmar",
+      "alias_term": "Ostmar Herder",
+      "shared_alias": false,
+      "pages": [
+        "Lepakko"
+      ]
+    },
+    {
+      "name": "Liekkari",
+      "alias": "Flamer",
+      "name_term": "Drazen Mavsha",
+      "alias_term": "Mavsha Darter",
+      "shared_alias": false,
+      "pages": [
+        "Liekkari"
+      ]
+    },
+    {
+      "name": "Liekkiö",
+      "alias": "Fire Spirit",
+      "name_term": "Mavrok Drakoth",
+      "alias_term": "Drakoth Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Liekkiö"
+      ]
+    },
+    {
+      "name": "Liimahiisi",
+      "alias": "Glue Hiisi",
+      "name_term": "Morvek Zenvax",
+      "alias_term": "Zenvax Shambler",
+      "shared_alias": false,
+      "pages": [
+        "Liimahiisi"
+      ]
+    },
+    {
+      "name": "Limanuljaska",
+      "alias": "Toxic Slime",
+      "name_term": "Krel Vosphis",
+      "alias_term": "Vosphis Sifter",
+      "shared_alias": false,
+      "pages": [
+        "Limanuljaska"
+      ]
+    },
+    {
+      "name": "Limatoukka",
+      "alias": "Slime Maggot",
+      "name_term": "Drazen Quokoth",
+      "alias_term": "Quokoth Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Limatoukka"
+      ]
+    },
+    {
+      "name": "Lohkare",
+      "alias": "Rock Spirit",
+      "name_term": "Orune Morvaska",
+      "alias_term": "Morvaska Stalker",
+      "shared_alias": false,
+      "pages": [
+        "Lohkare"
+      ]
+    },
+    {
+      "name": "Lukki",
+      "alias": "Daddy Longlegs",
+      "name_term": "Silthar Grephis",
+      "alias_term": "Grephis Striker",
+      "shared_alias": false,
+      "pages": [
+        "Hämähäkki"
+      ]
+    },
+    {
+      "name": "Maadoittajamestari",
+      "alias": "Master of Grounding",
+      "name_term": "Sarnel Halvaska",
+      "alias_term": "Halvaska Watcher",
+      "shared_alias": false,
+      "pages": [
+        "Maadoittajamestari"
+      ]
+    },
+    {
+      "name": "Marraskone",
+      "alias": "Super Necrobot",
+      "name_term": "Kessari Dramar",
+      "alias_term": "Dramar Seeder",
+      "shared_alias": false,
+      "pages": [
+        "Marraskone"
+      ]
+    },
+    {
+      "name": "Matkija",
+      "alias": "Mimic",
+      "name_term": "Rukhel Mavventh",
+      "alias_term": "Mavventh Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Matkija"
+      ]
+    },
+    {
+      "name": "Mato",
+      "alias": "Worm",
+      "name_term": "Belthar Ernqir",
+      "alias_term": "Ernqir Shambler",
+      "shared_alias": false,
+      "pages": [
+        "Mato"
+      ]
+    },
+    {
+      "name": "Mestarien mestari",
+      "alias": "Master of Masters",
+      "name_term": "Tavrek Ezhreth",
+      "alias_term": "Ezhreth Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Mestarien mestari"
+      ]
+    },
+    {
+      "name": "Miinankylväjä",
+      "alias": "Hiisi Mine Thrower",
+      "name_term": "Naktoi Quovax",
+      "alias_term": "Quovax Marksman",
+      "shared_alias": false,
+      "pages": [
+        "Miinankylväjä"
+      ]
+    },
+    {
+      "name": "Mokke",
+      "alias": "Goalkeeper",
+      "name_term": "Thalven Ulvax",
+      "alias_term": "Ulvax Herder",
+      "shared_alias": false,
+      "pages": [
+        "Gate Guardian"
+      ]
+    },
+    {
+      "name": "Molari",
+      "alias": "Goalkeeper",
+      "name_term": "Thalven Ezhghor",
+      "alias_term": "Ulvax Herder",
+      "shared_alias": true,
+      "pages": [
+        "Gate Guardian"
+      ]
+    },
+    {
+      "name": "Mulkkio",
+      "alias": "Gazer",
+      "name_term": "Ezhara Silventh",
+      "alias_term": "Silventh Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Mulkkio"
+      ]
+    },
+    {
+      "name": "Munkki",
+      "alias": "Monk",
+      "name_term": "Morvek Ithventh",
+      "alias_term": "Ithventh Stalker",
+      "shared_alias": false,
+      "pages": [
+        "Munkki"
+      ]
+    },
+    {
+      "name": "Muodonmuutosmestari",
+      "alias": "Master of Polymorphing",
+      "name_term": "Ymrik Krelsha",
+      "alias_term": "Krelsha Burrower",
+      "shared_alias": false,
+      "pages": [
+        "Muodonmuutosmestari"
+      ]
+    },
+    {
+      "name": "Murkku",
+      "alias": "Ant",
+      "name_term": "Quorin Kesvax",
+      "alias_term": "Kesvax Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Murkku"
+      ]
+    },
+    {
+      "name": "Myrkkyhiisi",
+      "alias": "Hiisi Poisoner",
+      "name_term": "Silthar Vosreth",
+      "alias_term": "Vosreth Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Myrkkyhiisi"
+      ]
+    },
+    {
+      "name": "Myrkkynääpikkä",
+      "alias": "Funeral Bell",
+      "name_term": "Ymrik Dumar",
+      "alias_term": "Dumar Roamer",
+      "shared_alias": false,
+      "pages": [
+        "Myrkkynääpikkä"
+      ]
+    },
+    {
+      "name": "Märkiäinen",
+      "alias": "Swampling",
+      "name_term": "Rukhel Ymphis",
+      "alias_term": "Ymphis Sapper",
+      "shared_alias": false,
+      "pages": [
+        "Märkiäinen"
+      ]
+    },
+    {
+      "name": "Mätänevä kroppa",
+      "alias": "Rotting Body",
+      "name_term": "Krel Ymvax",
+      "alias_term": "Ymvax Watcher",
+      "shared_alias": false,
+      "pages": [
+        "Mätänevä ruumis"
+      ]
+    },
+    {
+      "name": "Mätänevä pää",
+      "alias": "Rotting Head",
+      "name_term": "Ostrek Thalkoth",
+      "alias_term": "Thalkoth Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Mätänevä ruumis"
+      ]
+    },
+    {
+      "name": "Mätänevä ruumis",
+      "alias": "Rotting Corpse",
+      "name_term": "Mavrok Dravaska",
+      "alias_term": "Dravaska Darter",
+      "shared_alias": false,
+      "pages": [
+        "Mätänevä ruumis"
+      ]
+    },
+    {
+      "name": "Mätäryömijä",
+      "alias": "Putrid Crawler",
+      "name_term": "Rukhel Voskoth",
+      "alias_term": "Voskoth Seeder",
+      "shared_alias": false,
+      "pages": [
+        "Mätäryömijä"
+      ]
+    },
+    {
+      "name": "Möykky",
+      "alias": "Blob",
+      "name_term": "Quorin Ezhventh",
+      "alias_term": "Ezhventh Sentinel",
+      "shared_alias": false,
+      "pages": [
+        "Möykky"
+      ]
+    },
+    {
+      "name": "Nahkiainen",
+      "alias": "Lamprey",
+      "name_term": "Ostrek Ernvax",
+      "alias_term": "Ernvax Prowler",
+      "shared_alias": false,
+      "pages": [
+        "Nahkiainen"
+      ]
+    },
+    {
+      "name": "Nelikoipi",
+      "alias": "Deer",
+      "name_term": "Ostrek Thalvaska",
+      "alias_term": "Thalvaska Shambler",
+      "shared_alias": false,
+      "pages": [
+        "Nelikoipi"
+      ]
+    },
+    {
+      "name": "Neva-Aave",
+      "alias": "Bog Spirit",
+      "name_term": "Drazen Kolnok",
+      "alias_term": "Kolnok Shambler",
+      "shared_alias": false,
+      "pages": [
+        "Aave"
+      ]
+    },
+    {
+      "name": "Nuijamalikka",
+      "alias": "Club-foot",
+      "name_term": "Belthar Ezhvax",
+      "alias_term": "Ezhvax Sentinel",
+      "shared_alias": false,
+      "pages": [
+        "Nuijamalikka"
+      ]
+    },
+    {
+      "name": "Olematon",
+      "alias": "Non-existent",
+      "name_term": "Silthar Halvax",
+      "alias_term": "Halvax Keeper",
+      "shared_alias": false,
+      "pages": [
+        "Olematon"
+      ]
+    },
+    {
+      "name": "Pahan muisto",
+      "alias": "Memory of Evil",
+      "name_term": "Halvox Ymkoth",
+      "alias_term": "Ymkoth Marksman",
+      "shared_alias": false,
+      "pages": [
+        "Pahan muisto"
+      ]
+    },
+    {
+      "name": "Pakkasukko",
+      "alias": "Old Man Winter",
+      "name_term": "Sarnel Zenvia",
+      "alias_term": "Zenvia Stalker",
+      "shared_alias": false,
+      "pages": [
+        "Pakkasukko"
+      ]
+    },
+    {
+      "name": "Palauttajamestari",
+      "alias": "Master of Returning",
+      "name_term": "Kavrik Sarsha",
+      "alias_term": "Sarsha Stalker",
+      "shared_alias": false,
+      "pages": [
+        "Palauttajamestari"
+      ]
+    },
+    {
+      "name": "Parantajahiisi",
+      "alias": "Hiisi Healer",
+      "name_term": "Grevan Duvia",
+      "alias_term": "Duvia Brooder",
+      "shared_alias": false,
+      "pages": [
+        "Parantajahiisi"
+      ]
+    },
+    {
+      "name": "Patsas",
+      "alias": "Statue",
+      "name_term": "Halvox Nakphis",
+      "alias_term": "Nakphis Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Patsas"
+      ]
+    },
+    {
+      "name": "Peitsivartija",
+      "alias": "Lance Sentry",
+      "name_term": "Vorak Ithqir",
+      "alias_term": "Ithqir Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Peitsivartija"
+      ]
+    },
+    {
+      "name": "Pikkutulikärpänen",
+      "alias": "Lesser firefly",
+      "name_term": "Vessin Tavsha",
+      "alias_term": "Tavsha Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Tulikärpänen"
+      ]
+    },
+    {
+      "name": "Plasmakukka",
+      "alias": "Plasma Flower",
+      "name_term": "Morvek Halvia",
+      "alias_term": "Halvia Sifter",
+      "shared_alias": false,
+      "pages": [
+        "Plasmakukka"
+      ]
+    },
+    {
+      "name": "Poro",
+      "alias": "Reindeer",
+      "name_term": "Krel Ostphis",
+      "alias_term": "Ostphis Roamer",
+      "shared_alias": false,
+      "pages": [
+        "Poro"
+      ]
+    },
+    {
+      "name": "Puistokemisti",
+      "alias": "Hiisi Alchemist",
+      "name_term": "Belthar Ezhphis",
+      "alias_term": "Ezhphis Stalker",
+      "shared_alias": false,
+      "pages": [
+        "Puistokemisti"
+      ]
+    },
+    {
+      "name": "Puska",
+      "alias": "Bloom",
+      "name_term": "Silthar Nakvax",
+      "alias_term": "Nakvax Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Puska"
+      ]
+    },
+    {
+      "name": "Pysäyttäjä",
+      "alias": "Stopper",
+      "name_term": "Ezhara Ithnok",
+      "alias_term": "Ithnok Howler",
+      "shared_alias": false,
+      "pages": [
+        "Pysäyttäjä"
+      ]
+    },
+    {
+      "name": "Raukka",
+      "alias": "Coward",
+      "name_term": "Ostrek Grevaska",
+      "alias_term": "Grevaska Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Raukka"
+      ]
+    },
+    {
+      "name": "Robottikyttä",
+      "alias": "Robo-Cop",
+      "name_term": "Orune Morghor",
+      "alias_term": "Morghor Marksman",
+      "shared_alias": false,
+      "pages": [
+        "Robottikyttä"
+      ]
+    },
+    {
+      "name": "Rotta",
+      "alias": "Rat",
+      "name_term": "Vorak Dravia",
+      "alias_term": "Dravia Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Rotta"
+      ]
+    },
+    {
+      "name": "Ruttorotta",
+      "alias": "Plague Rat",
+      "name_term": "Quorin Vessha",
+      "alias_term": "Vessha Shaper",
+      "shared_alias": false,
+      "pages": [
+        "Ruttorotta"
+      ]
+    },
+    {
+      "name": "Rynkkyhiisi",
+      "alias": "Hiisi Gunner",
+      "name_term": "Naktoi Orphis",
+      "alias_term": "Orphis Skulker",
+      "shared_alias": false,
+      "pages": [
+        "Rynkkyhiisi"
+      ]
+    },
+    {
+      "name": "Salamurhaajarobotti",
+      "alias": "Assassin Robot",
+      "name_term": "Sarnel Halqir",
+      "alias_term": "Halqir Shambler",
+      "shared_alias": false,
+      "pages": [
+        "Salamurhaajarobotti"
+      ]
+    },
+    {
+      "name": "Sauvojen tuntija",
+      "alias": "Connoisseur of Wands",
+      "name_term": "Zentha Ymnok",
+      "alias_term": "Ymnok Weaver",
+      "shared_alias": false,
+      "pages": [
+        "Sauvojen tuntija"
+      ]
+    },
+    {
+      "name": "Seula",
+      "alias": "Sieve",
+      "name_term": "Orune Morkoth",
+      "alias_term": "Morkoth Darter",
+      "shared_alias": false,
+      "pages": [
+        "Gate Guardian"
+      ]
+    },
+    {
+      "name": "Siirtäjämestari",
+      "alias": "Master of Teleportation",
+      "name_term": "Belthar Morventh",
+      "alias_term": "Morventh Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Siirtäjämestari"
+      ]
+    },
+    {
+      "name": "Skorpioni",
+      "alias": "Scorpion",
+      "name_term": "Thalven Mavphis",
+      "alias_term": "Mavphis Howler",
+      "shared_alias": false,
+      "pages": [
+        "Skorpioni"
+      ]
+    },
+    {
+      "name": "Skoude",
+      "alias": "Cop",
+      "name_term": "Ymrik Varnok",
+      "alias_term": "Varnok Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Skoude"
+      ]
+    },
+    {
+      "name": "Snipuhiisi",
+      "alias": "Hiisi Sniper",
+      "name_term": "Ymrik Vesventh",
+      "alias_term": "Vesventh Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Snipuhiisi"
+      ]
+    },
+    {
+      "name": "Sokaisunmestari",
+      "alias": "Master of Blinding",
+      "name_term": "Halvox Kavkoth",
+      "alias_term": "Kavkoth Herder",
+      "shared_alias": false,
+      "pages": [
+        "Sokaisunmestari"
+      ]
+    },
+    {
+      "name": "Spiraalikalma",
+      "alias": "Spiral Phantom",
+      "name_term": "Naktoi Varvia",
+      "alias_term": "Varvia Herder",
+      "shared_alias": false,
+      "pages": [
+        "Spiraalikalma"
+      ]
+    },
+    {
+      "name": "Stendari",
+      "alias": "Fire Mage",
+      "name_term": "Morvek Halmar",
+      "alias_term": "Halmar Prowler",
+      "shared_alias": false,
+      "pages": [
+        "Stendari"
+      ]
+    },
+    {
+      "name": "Stevari",
+      "alias": "Guard",
+      "name_term": "Rukhel Ymqir",
+      "alias_term": "Ymqir Lurker",
+      "shared_alias": false,
+      "pages": [
+        "Stevari"
+      ]
+    },
+    {
+      "name": "Suhiseva lammas",
+      "alias": "Buzzing Sheep",
+      "name_term": "Ymrik Orreth",
+      "alias_term": "Orreth Darter",
+      "shared_alias": false,
+      "pages": [
+        "Lammas"
+      ]
+    },
+    {
+      "name": "Suomuhauki",
+      "alias": "Dragon",
+      "name_term": "Ymrik Quonok",
+      "alias_term": "Quonok Skulker",
+      "shared_alias": false,
+      "pages": [
+        "Suomuhauki"
+      ]
+    },
+    {
+      "name": "Susi",
+      "alias": "Wolf",
+      "name_term": "Krel Ondnok",
+      "alias_term": "Ondnok Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Susi"
+      ]
+    },
+    {
+      "name": "Sylkyri",
+      "alias": "Spitter",
+      "name_term": "Kavrik Quoventh",
+      "alias_term": "Quoventh Lurker",
+      "shared_alias": false,
+      "pages": [
+        "Sylkyri"
+      ]
+    },
+    {
+      "name": "Syväolento",
+      "alias": "Creature of the Deep",
+      "name_term": "Sarnel Zenvaska",
+      "alias_term": "Zenvaska Skulker",
+      "shared_alias": false,
+      "pages": [
+        "Syväolento"
+      ]
+    },
+    {
+      "name": "Sähikäismenninkäinen",
+      "alias": "Firecracker Goblin",
+      "name_term": "Belthar Mavqir",
+      "alias_term": "Mavqir Burrower",
+      "shared_alias": false,
+      "pages": [
+        "Sähikäismenninkäinen"
+      ]
+    },
+    {
+      "name": "Sähkiö",
+      "alias": "Thunder Spirit",
+      "name_term": "Ymrik Dunok",
+      "alias_term": "Dunok Minder",
+      "shared_alias": false,
+      "pages": [
+        "Sähkiö"
+      ]
+    },
+    {
+      "name": "Sätkymestari",
+      "alias": "Master of Twitching",
+      "name_term": "Drazen Orkoth",
+      "alias_term": "Orkoth Lurker",
+      "shared_alias": false,
+      "pages": [
+        "Sätkymestari"
+      ]
+    },
+    {
+      "name": "Taikasauva",
+      "alias": "Magic Wand",
+      "name_term": "Zentha Nakvaska",
+      "alias_term": "Nakvaska Herder",
+      "shared_alias": false,
+      "pages": [
+        "Taikasauva"
+      ]
+    },
+    {
+      "name": "Taivaankatse",
+      "alias": "Sky Gazer",
+      "name_term": "Quorin Tavmar",
+      "alias_term": "Tavmar Sentinel",
+      "shared_alias": false,
+      "pages": [
+        "Taivaankatse"
+      ]
+    },
+    {
+      "name": "Taivaskristalli",
+      "alias": "Celestial Crystal",
+      "name_term": "Ezhara Silphis",
+      "alias_term": "Silphis Swarmer",
+      "shared_alias": false,
+      "pages": [
+        "Taivaskristalli"
+      ]
+    },
+    {
+      "name": "Tapion vasalli",
+      "alias": "Tapio's Vassal",
+      "name_term": "Quorin Varphis",
+      "alias_term": "Varphis Warden",
+      "shared_alias": false,
+      "pages": [
+        "Tapion vasalli"
+      ]
+    },
+    {
+      "name": "Tappurahiisi",
+      "alias": "Miner Hiisi",
+      "name_term": "Zentha Ymghor",
+      "alias_term": "Ymghor Seeder",
+      "shared_alias": false,
+      "pages": [
+        "Tappurahiisi"
+      ]
+    },
+    {
+      "name": "Tarkkailija",
+      "alias": "Observer",
+      "name_term": "Quorin Keskoth",
+      "alias_term": "Keskoth Lurker",
+      "shared_alias": false,
+      "pages": [
+        "Tarkkailija"
+      ]
+    },
+    {
+      "name": "Teloittaja",
+      "alias": "Executioner",
+      "name_term": "Vorak Nakkoth",
+      "alias_term": "Nakkoth Skitterer",
+      "shared_alias": false,
+      "pages": [
+        "Teloittaja"
+      ]
+    },
+    {
+      "name": "Toimari",
+      "alias": "Hiisi Leader",
+      "name_term": "Rukhel Kolvax",
+      "alias_term": "Kolvax Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Toimari"
+      ]
+    },
+    {
+      "name": "Torjuntalaite",
+      "alias": "Turret",
+      "name_term": "Halvox Kolqir",
+      "alias_term": "Kolqir Striker",
+      "shared_alias": false,
+      "pages": [
+        "Torjuntalaite"
+      ]
+    },
+    {
+      "name": "Toukka",
+      "alias": "Maggot",
+      "name_term": "Quorin Ondqir",
+      "alias_term": "Ondqir Herder",
+      "shared_alias": false,
+      "pages": [
+        "Toukka"
+      ]
+    },
+    {
+      "name": "Toveri",
+      "alias": "Friend",
+      "name_term": "Morvek Morvia",
+      "alias_term": "Morvia Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Toveri"
+      ]
+    },
+    {
+      "name": "Tulihiisi",
+      "alias": "Fire Hiisi",
+      "name_term": "Drazen Duventh",
+      "alias_term": "Duventh Striker",
+      "shared_alias": false,
+      "pages": [
+        "Tulihiisi"
+      ]
+    },
+    {
+      "name": "Tuonelankone",
+      "alias": "Necrobot",
+      "name_term": "Orune Tavghor",
+      "alias_term": "Tavghor Brooder",
+      "shared_alias": false,
+      "pages": [
+        "Tuonelankone"
+      ]
+    },
+    {
+      "name": "Turso",
+      "alias": "Tentacler",
+      "name_term": "Rukhel Greventh",
+      "alias_term": "Greventh Herder",
+      "shared_alias": false,
+      "pages": [
+        "Turso"
+      ]
+    },
+    {
+      "name": "Turvalennokki",
+      "alias": "Safety Drone",
+      "name_term": "Sarnel Vosqir",
+      "alias_term": "Vosqir Darter",
+      "shared_alias": false,
+      "pages": [
+        "Turvalennokki"
+      ]
+    },
+    {
+      "name": "Turvattomuusmestari",
+      "alias": "Master of Vulnerability",
+      "name_term": "Halvox Krelnok",
+      "alias_term": "Krelnok Prowler",
+      "shared_alias": false,
+      "pages": [
+        "Turvattomuusmestari"
+      ]
+    },
+    {
+      "name": "Turvonnu velho",
+      "alias": "Bloated Wizard",
+      "name_term": "Grevan Quoghor",
+      "alias_term": "Quoghor Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Turvonnu velho"
+      ]
+    },
+    {
+      "name": "Ukko",
+      "alias": "Thunder Mage",
+      "name_term": "Drazen Krelvaska",
+      "alias_term": "Krelvaska Burrower",
+      "shared_alias": false,
+      "pages": [
+        "Ukko"
+      ]
+    },
+    {
+      "name": "Ukkoshyypiö",
+      "alias": "Thunder Creep",
+      "name_term": "Sarnel Zenqir",
+      "alias_term": "Zenqir Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Ukkoshyypiö"
+      ]
+    },
+    {
+      "name": "Unohdettu",
+      "alias": "Forgotten",
+      "name_term": "Belthar Sarmar",
+      "alias_term": "Sarmar Striker",
+      "shared_alias": false,
+      "pages": [
+        "Unohdettu"
+      ]
+    },
+    {
+      "name": "Utu-Aave",
+      "alias": "Fog Spirit",
+      "name_term": "Ezhara Zenreth",
+      "alias_term": "Zenreth Watcher",
+      "shared_alias": false,
+      "pages": [
+        "Aave"
+      ]
+    },
+    {
+      "name": "Vaihdosmestari",
+      "alias": "Master of Exchange",
+      "name_term": "Thalven Ulmar",
+      "alias_term": "Ulmar Sentinel",
+      "shared_alias": false,
+      "pages": [
+        "Vaihdosmestari"
+      ]
+    },
+    {
+      "name": "Vakoilija",
+      "alias": "Spy",
+      "name_term": "Tavrek Ymreth",
+      "alias_term": "Ymreth Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Vakoilija"
+      ]
+    },
+    {
+      "name": "Valaistunut alkemisti",
+      "alias": "Enlightened Alchemist",
+      "name_term": "Naktoi Ernreth",
+      "alias_term": "Ernreth Marksman",
+      "shared_alias": false,
+      "pages": [
+        "Valaistunut alkemisti"
+      ]
+    },
+    {
+      "name": "Valhe",
+      "alias": "Lie",
+      "name_term": "Vessin Kesmar",
+      "alias_term": "Kesmar Stinger",
+      "shared_alias": false,
+      "pages": [
+        "Valhe"
+      ]
+    },
+    {
+      "name": "Varjokupla",
+      "alias": "Shadow Bubble",
+      "name_term": "Krel Quovaska",
+      "alias_term": "Quovaska Drifter",
+      "shared_alias": false,
+      "pages": [
+        "Varjokupla"
+      ]
+    },
+    {
+      "name": "Verikristalli",
+      "alias": "Blood Crystal",
+      "name_term": "Vessin Tavkoth",
+      "alias_term": "Tavkoth Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Verikristalli"
+      ]
+    },
+    {
+      "name": "Veska",
+      "alias": "Goalkeeper",
+      "name_term": "Drazen Orvax",
+      "alias_term": "Ulvax Herder",
+      "shared_alias": true,
+      "pages": [
+        "Gate Guardian"
+      ]
+    },
+    {
+      "name": "Viha-Aave",
+      "alias": "Anger Spirit",
+      "name_term": "Zentha Nakqir",
+      "alias_term": "Nakqir Warden",
+      "shared_alias": false,
+      "pages": [
+        "Aave"
+      ]
+    },
+    {
+      "name": "Ylialkemisti",
+      "alias": "High Alchemist",
+      "name_term": "Kessari Ithvax",
+      "alias_term": "Ithvax Trapper",
+      "shared_alias": false,
+      "pages": [
+        "Ylialkemisti"
+      ]
+    },
+    {
+      "name": "Äitilimanuljaska",
+      "alias": "Guardian Slime",
+      "name_term": "Drazen Vesvia",
+      "alias_term": "Vesvia Marauder",
+      "shared_alias": false,
+      "pages": [
+        "Kolmisilmän koipi"
+      ]
+    },
+    {
+      "name": "Äitinuljaska",
+      "alias": "Mother Slime",
+      "name_term": "Grevan Rukkoth",
+      "alias_term": "Rukkoth Skitterer",
+      "shared_alias": false,
+      "pages": [
+        "Äitinuljaska"
+      ]
+    }
+  ],
+  "extra_terms": [
+    {
+      "source": "Noita",
+      "term": "Thalvia"
+    },
+    {
+      "source": "Hiisi",
+      "term": "Nakghor"
+    },
+    {
+      "source": "Hiidet",
+      "term": "Nakghor"
+    },
+    {
+      "source": "Aave",
+      "term": "Ostrek Ulkoth"
+    },
+    {
+      "source": "Gate Guardian",
+      "term": "Quorin Krelvax"
+    },
+    {
+      "source": "Tulikärpänen",
+      "term": "Ulmar Belvax"
+    }
+  ],
+  "pages": [
+    {
+      "file": "001_Aave.md",
+      "new_file": "001_ostrek_ulkoth.md",
+      "title": "Aave",
+      "title_term": "Ostrek Ulkoth"
+    },
+    {
+      "file": "002_Amppari.md",
+      "new_file": "002_zentha_kavsha.md",
+      "title": "Amppari",
+      "title_term": "Zentha Kavsha"
+    },
+    {
+      "file": "003_Ankka.md",
+      "new_file": "003_quorin_belventh.md",
+      "title": "Ankka",
+      "title_term": "Quorin Belventh"
+    },
+    {
+      "file": "004_Eldari.md",
+      "new_file": "004_halvox_ymmar.md",
+      "title": "Eldari",
+      "title_term": "Halvox Ymmar"
+    },
+    {
+      "file": "005_Elvytyskristalli.md",
+      "new_file": "005_vorak_silghor.md",
+      "title": "Elvytyskristalli",
+      "title_term": "Vorak Silghor"
+    },
+    {
+      "file": "006_Epäalkemisti.md",
+      "new_file": "006_drazen_orghor.md",
+      "title": "Epäalkemisti",
+      "title_term": "Drazen Orghor"
+    },
+    {
+      "file": "007_Eväkäs.md",
+      "new_file": "007_kavrik_varvax.md",
+      "title": "Eväkäs",
+      "title_term": "Kavrik Varvax"
+    },
+    {
+      "file": "008_Gate_Guardian.md",
+      "new_file": "008_quorin_krelvax.md",
+      "title": "Gate Guardian",
+      "title_term": "Quorin Krelvax"
+    },
+    {
+      "file": "009_Haamu.md",
+      "new_file": "009_kessari_mavvax.md",
+      "title": "Haamu",
+      "title_term": "Kessari Mavvax"
+    },
+    {
+      "file": "010_Haamukivi.md",
+      "new_file": "010_rukhel_vossha.md",
+      "title": "Haamukivi",
+      "title_term": "Rukhel Vossha"
+    },
+    {
+      "file": "011_Haavoittajamestari.md",
+      "new_file": "011_vorak_halreth.md",
+      "title": "Haavoittajamestari",
+      "title_term": "Vorak Halreth"
+    },
+    {
+      "file": "012_Hahmonvaihtaja.md",
+      "new_file": "012_zentha_ymvia.md",
+      "title": "Hahmonvaihtaja",
+      "title_term": "Zentha Ymvia"
+    },
+    {
+      "file": "013_Happonuljaska.md",
+      "new_file": "013_vessin_kessha.md",
+      "title": "Happonuljaska",
+      "title_term": "Vessin Kessha"
+    },
+    {
+      "file": "014_Haulikkohiisi.md",
+      "new_file": "014_halvox_nakvia.md",
+      "title": "Haulikkohiisi",
+      "title_term": "Halvox Nakvia"
+    },
+    {
+      "file": "015_Heinäsirkka.md",
+      "new_file": "015_duvar_tavvia.md",
+      "title": "Heinäsirkka",
+      "title_term": "Duvar Tavvia"
+    },
+    {
+      "file": "016_Helvetin_sylkijä.md",
+      "new_file": "016_vorak_halsha.md",
+      "title": "Helvetin sylkijä",
+      "title_term": "Vorak Halsha"
+    },
+    {
+      "file": "017_Helvetinkatse.md",
+      "new_file": "017_belthar_ulqir.md",
+      "title": "Helvetinkatse",
+      "title_term": "Belthar Ulqir"
+    },
+    {
+      "file": "018_Helvetinmato.md",
+      "new_file": "018_silthar_grevax.md",
+      "title": "Helvetinmato",
+      "title_term": "Silthar Grevax"
+    },
+    {
+      "file": "019_Henkevä_potu.md",
+      "new_file": "019_morvek_kesreth.md",
+      "title": "Henkevä potu",
+      "title_term": "Morvek Kesreth"
+    },
+    {
+      "file": "020_Hiidenkivi.md",
+      "new_file": "020_orune_tavvaska.md",
+      "title": "Hiidenkivi",
+      "title_term": "Orune Tavvaska"
+    },
+    {
+      "file": "021_Hohtava_hyypiö.md",
+      "new_file": "021_ostrek_ulsha.md",
+      "title": "Hohtava hyypiö",
+      "title_term": "Ostrek Ulsha"
+    },
+    {
+      "file": "022_Hohtonaamio.md",
+      "new_file": "022_mavrok_morreth.md",
+      "title": "Hohtonaamio",
+      "title_term": "Mavrok Morreth"
+    },
+    {
+      "file": "023_Houre.md",
+      "new_file": "023_ulmar_kesphis.md",
+      "title": "Houre",
+      "title_term": "Ulmar Kesphis"
+    },
+    {
+      "file": "024_Huhtasieni.md",
+      "new_file": "024_halvox_naknok.md",
+      "title": "Huhtasieni",
+      "title_term": "Halvox Naknok"
+    },
+    {
+      "file": "025_Hurtta.md",
+      "new_file": "025_orune_morvax.md",
+      "title": "Hurtta",
+      "title_term": "Orune Morvax"
+    },
+    {
+      "file": "026_Hyypiö.md",
+      "new_file": "026_rukhel_kolsha.md",
+      "title": "Hyypiö",
+      "title_term": "Rukhel Kolsha"
+    },
+    {
+      "file": "027_Häivehiisi.md",
+      "new_file": "027_kessari_ernghor.md",
+      "title": "Häivehiisi",
+      "title_term": "Kessari Ernghor"
+    },
+    {
+      "file": "028_Hämis.md",
+      "new_file": "028_silthar_nakmar.md",
+      "title": "Hämis",
+      "title_term": "Silthar Nakmar"
+    },
+    {
+      "file": "029_Hämähäkki.md",
+      "new_file": "029_krel_ostnok.md",
+      "title": "Hämähäkki",
+      "title_term": "Krel Ostnok"
+    },
+    {
+      "file": "030_IT-Tankki.md",
+      "new_file": "030_quorin_ondventh.md",
+      "title": "IT-Tankki",
+      "title_term": "Quorin Ondventh"
+    },
+    {
+      "file": "031_Jouluhiisi.md",
+      "new_file": "031_tavrek_mavvaska.md",
+      "title": "Jouluhiisi",
+      "title_term": "Tavrek Mavvaska"
+    },
+    {
+      "file": "032_Jäähdytyslaite.md",
+      "new_file": "032_kessari_sarnok.md",
+      "title": "Jäähdytyslaite",
+      "title_term": "Kessari Sarnok"
+    },
+    {
+      "file": "033_Jäätiö.md",
+      "new_file": "033_silthar_kavvia.md",
+      "title": "Jäätiö",
+      "title_term": "Silthar Kavvia"
+    },
+    {
+      "file": "034_KK-Tankki.md",
+      "new_file": "034_naktoi_vesreth.md",
+      "title": "KK-Tankki",
+      "title_term": "Naktoi Vesreth"
+    },
+    {
+      "file": "035_Kadotettu_alkemisti.md",
+      "new_file": "035_kavrik_dureth.md",
+      "title": "Kadotettu alkemisti",
+      "title_term": "Kavrik Dureth"
+    },
+    {
+      "file": "036_Kallokärpänen.md",
+      "new_file": "036_vessin_tavvax.md",
+      "title": "Kallokärpänen",
+      "title_term": "Vessin Tavvax"
+    },
+    {
+      "file": "037_Kallorotta.md",
+      "new_file": "037_mavrok_rukreth.md",
+      "title": "Kallorotta",
+      "title_term": "Mavrok Rukreth"
+    },
+    {
+      "file": "038_Kalmamato.md",
+      "new_file": "038_ezhara_ithvaska.md",
+      "title": "Kalmamato",
+      "title_term": "Ezhara Ithvaska"
+    },
+    {
+      "file": "039_Kammolukki.md",
+      "new_file": "039_vorak_silnok.md",
+      "title": "Kammolukki",
+      "title_term": "Vorak Silnok"
+    },
+    {
+      "file": "040_Kasvoton_Lukki.md",
+      "new_file": "040_naktoi_duphis.md",
+      "title": "Kasvoton Lukki",
+      "title_term": "Naktoi Duphis"
+    },
+    {
+      "file": "041_Kauhuhirviö.md",
+      "new_file": "041_kavrik_quoqir.md",
+      "title": "Kauhuhirviö",
+      "title_term": "Kavrik Quoqir"
+    },
+    {
+      "file": "042_Kilpihiisi.md",
+      "new_file": "042_ostrek_ernsha.md",
+      "title": "Kilpihiisi",
+      "title_term": "Ostrek Ernsha"
+    },
+    {
+      "file": "043_Kirottu_kristalli.md",
+      "new_file": "043_ostrek_sarvax.md",
+      "title": "Kirottu kristalli",
+      "title_term": "Ostrek Sarvax"
+    },
+    {
+      "file": "044_Kiukkukalma.md",
+      "new_file": "044_kavrik_dukoth.md",
+      "title": "Kiukkukalma",
+      "title_term": "Kavrik Dukoth"
+    },
+    {
+      "file": "045_Kiukkumöykky.md",
+      "new_file": "045_ymrik_vesmar.md",
+      "title": "Kiukkumöykky",
+      "title_term": "Ymrik Vesmar"
+    },
+    {
+      "file": "046_Kivi.md",
+      "new_file": "046_ulmar_ostreth.md",
+      "title": "Kivi",
+      "title_term": "Ulmar Ostreth"
+    },
+    {
+      "file": "047_Kohdennusmestari.md",
+      "new_file": "047_belthar_thalphis.md",
+      "title": "Kohdennusmestari",
+      "title_term": "Belthar Thalphis"
+    },
+    {
+      "file": "048_Kolmisilmä.md",
+      "new_file": "048_sarnel_zenkoth.md",
+      "title": "Kolmisilmä",
+      "title_term": "Sarnel Zenkoth"
+    },
+    {
+      "file": "049_Kolmisilmän_koipi.md",
+      "new_file": "049_ezhara_ithkoth.md",
+      "title": "Kolmisilmän koipi",
+      "title_term": "Ezhara Ithkoth"
+    },
+    {
+      "file": "050_Kolmisilmän_silmä.md",
+      "new_file": "050_sarnel_draventh.md",
+      "title": "Kolmisilmän silmä",
+      "title_term": "Sarnel Draventh"
+    },
+    {
+      "file": "051_Kolmisilmän_sydän.md",
+      "new_file": "051_rukhel_vosnok.md",
+      "title": "Kolmisilmän sydän",
+      "title_term": "Rukhel Vosnok"
+    },
+    {
+      "file": "052_Konna.md",
+      "new_file": "052_ezhara_tavventh.md",
+      "title": "Konna",
+      "title_term": "Ezhara Tavventh"
+    },
+    {
+      "file": "053_Korjauslennokki.md",
+      "new_file": "053_kessari_belvaska.md",
+      "title": "Korjauslennokki",
+      "title_term": "Kessari Belvaska"
+    },
+    {
+      "file": "054_Kranuhiisi.md",
+      "new_file": "054_duvar_tavqir.md",
+      "title": "Kranuhiisi",
+      "title_term": "Duvar Tavqir"
+    },
+    {
+      "file": "055_Kummitus.md",
+      "new_file": "055_krel_ymventh.md",
+      "title": "Kummitus",
+      "title_term": "Krel Ymventh"
+    },
+    {
+      "file": "056_Kyrmyniska.md",
+      "new_file": "056_krel_grekoth.md",
+      "title": "Kyrmyniska",
+      "title_term": "Krel Grekoth"
+    },
+    {
+      "file": "057_Laahustussieni.md",
+      "new_file": "057_quorin_ostvax.md",
+      "title": "Laahustussieni",
+      "title_term": "Quorin Ostvax"
+    },
+    {
+      "file": "058_Lammas.md",
+      "new_file": "058_grevan_vesvax.md",
+      "title": "Lammas",
+      "title_term": "Grevan Vesvax"
+    },
+    {
+      "file": "059_Laser-Tankki.md",
+      "new_file": "059_ostrek_sarghor.md",
+      "title": "Laser-Tankki",
+      "title_term": "Ostrek Sarghor"
+    },
+    {
+      "file": "060_Lennokki.md",
+      "new_file": "060_naktoi_krelkoth.md",
+      "title": "Lennokki",
+      "title_term": "Naktoi Krelkoth"
+    },
+    {
+      "file": "061_Lepakko.md",
+      "new_file": "061_grevan_ostmar.md",
+      "title": "Lepakko",
+      "title_term": "Grevan Ostmar"
+    },
+    {
+      "file": "062_Liekkari.md",
+      "new_file": "062_drazen_mavsha.md",
+      "title": "Liekkari",
+      "title_term": "Drazen Mavsha"
+    },
+    {
+      "file": "063_Liekkiö.md",
+      "new_file": "063_mavrok_drakoth.md",
+      "title": "Liekkiö",
+      "title_term": "Mavrok Drakoth"
+    },
+    {
+      "file": "064_Liimahiisi.md",
+      "new_file": "064_morvek_zenvax.md",
+      "title": "Liimahiisi",
+      "title_term": "Morvek Zenvax"
+    },
+    {
+      "file": "065_Limanuljaska.md",
+      "new_file": "065_krel_vosphis.md",
+      "title": "Limanuljaska",
+      "title_term": "Krel Vosphis"
+    },
+    {
+      "file": "066_Limatoukka.md",
+      "new_file": "066_drazen_quokoth.md",
+      "title": "Limatoukka",
+      "title_term": "Drazen Quokoth"
+    },
+    {
+      "file": "067_Lohkare.md",
+      "new_file": "067_orune_morvaska.md",
+      "title": "Lohkare",
+      "title_term": "Orune Morvaska"
+    },
+    {
+      "file": "068_Maadoittajamestari.md",
+      "new_file": "068_sarnel_halvaska.md",
+      "title": "Maadoittajamestari",
+      "title_term": "Sarnel Halvaska"
+    },
+    {
+      "file": "069_Marraskone.md",
+      "new_file": "069_kessari_dramar.md",
+      "title": "Marraskone",
+      "title_term": "Kessari Dramar"
+    },
+    {
+      "file": "070_Matkija.md",
+      "new_file": "070_rukhel_mavventh.md",
+      "title": "Matkija",
+      "title_term": "Rukhel Mavventh"
+    },
+    {
+      "file": "071_Mato.md",
+      "new_file": "071_belthar_ernqir.md",
+      "title": "Mato",
+      "title_term": "Belthar Ernqir"
+    },
+    {
+      "file": "072_Mestarien_mestari.md",
+      "new_file": "072_tavrek_ezhreth.md",
+      "title": "Mestarien mestari",
+      "title_term": "Tavrek Ezhreth"
+    },
+    {
+      "file": "073_Miinankylväjä.md",
+      "new_file": "073_naktoi_quovax.md",
+      "title": "Miinankylväjä",
+      "title_term": "Naktoi Quovax"
+    },
+    {
+      "file": "074_Mulkkio.md",
+      "new_file": "074_ezhara_silventh.md",
+      "title": "Mulkkio",
+      "title_term": "Ezhara Silventh"
+    },
+    {
+      "file": "075_Munkki.md",
+      "new_file": "075_morvek_ithventh.md",
+      "title": "Munkki",
+      "title_term": "Morvek Ithventh"
+    },
+    {
+      "file": "076_Muodonmuutosmestari.md",
+      "new_file": "076_ymrik_krelsha.md",
+      "title": "Muodonmuutosmestari",
+      "title_term": "Ymrik Krelsha"
+    },
+    {
+      "file": "077_Murkku.md",
+      "new_file": "077_quorin_kesvax.md",
+      "title": "Murkku",
+      "title_term": "Quorin Kesvax"
+    },
+    {
+      "file": "078_Myrkkyhiisi.md",
+      "new_file": "078_silthar_vosreth.md",
+      "title": "Myrkkyhiisi",
+      "title_term": "Silthar Vosreth"
+    },
+    {
+      "file": "079_Myrkkynääpikkä.md",
+      "new_file": "079_ymrik_dumar.md",
+      "title": "Myrkkynääpikkä",
+      "title_term": "Ymrik Dumar"
+    },
+    {
+      "file": "080_Märkiäinen.md",
+      "new_file": "080_rukhel_ymphis.md",
+      "title": "Märkiäinen",
+      "title_term": "Rukhel Ymphis"
+    },
+    {
+      "file": "081_Mätänevä_ruumis.md",
+      "new_file": "081_mavrok_dravaska.md",
+      "title": "Mätänevä ruumis",
+      "title_term": "Mavrok Dravaska"
+    },
+    {
+      "file": "082_Mätäryömijä.md",
+      "new_file": "082_rukhel_voskoth.md",
+      "title": "Mätäryömijä",
+      "title_term": "Rukhel Voskoth"
+    },
+    {
+      "file": "083_Möykky.md",
+      "new_file": "083_quorin_ezhventh.md",
+      "title": "Möykky",
+      "title_term": "Quorin Ezhventh"
+    },
+    {
+      "file": "084_Nahkiainen.md",
+      "new_file": "084_ostrek_ernvax.md",
+      "title": "Nahkiainen",
+      "title_term": "Ostrek Ernvax"
+    },
+    {
+      "file": "085_Nelikoipi.md",
+      "new_file": "085_ostrek_thalvaska.md",
+      "title": "Nelikoipi",
+      "title_term": "Ostrek Thalvaska"
+    },
+    {
+      "file": "086_Nuijamalikka.md",
+      "new_file": "086_belthar_ezhvax.md",
+      "title": "Nuijamalikka",
+      "title_term": "Belthar Ezhvax"
+    },
+    {
+      "file": "087_Olematon.md",
+      "new_file": "087_silthar_halvax.md",
+      "title": "Olematon",
+      "title_term": "Silthar Halvax"
+    },
+    {
+      "file": "088_Pahan_muisto.md",
+      "new_file": "088_halvox_ymkoth.md",
+      "title": "Pahan muisto",
+      "title_term": "Halvox Ymkoth"
+    },
+    {
+      "file": "089_Pakkasukko.md",
+      "new_file": "089_sarnel_zenvia.md",
+      "title": "Pakkasukko",
+      "title_term": "Sarnel Zenvia"
+    },
+    {
+      "file": "090_Palauttajamestari.md",
+      "new_file": "090_kavrik_sarsha.md",
+      "title": "Palauttajamestari",
+      "title_term": "Kavrik Sarsha"
+    },
+    {
+      "file": "091_Parantajahiisi.md",
+      "new_file": "091_grevan_duvia.md",
+      "title": "Parantajahiisi",
+      "title_term": "Grevan Duvia"
+    },
+    {
+      "file": "092_Patsas.md",
+      "new_file": "092_halvox_nakphis.md",
+      "title": "Patsas",
+      "title_term": "Halvox Nakphis"
+    },
+    {
+      "file": "093_Peitsivartija.md",
+      "new_file": "093_vorak_ithqir.md",
+      "title": "Peitsivartija",
+      "title_term": "Vorak Ithqir"
+    },
+    {
+      "file": "094_Plasmakukka.md",
+      "new_file": "094_morvek_halvia.md",
+      "title": "Plasmakukka",
+      "title_term": "Morvek Halvia"
+    },
+    {
+      "file": "095_Poro.md",
+      "new_file": "095_krel_ostphis.md",
+      "title": "Poro",
+      "title_term": "Krel Ostphis"
+    },
+    {
+      "file": "096_Puistokemisti.md",
+      "new_file": "096_belthar_ezhphis.md",
+      "title": "Puistokemisti",
+      "title_term": "Belthar Ezhphis"
+    },
+    {
+      "file": "097_Puska.md",
+      "new_file": "097_silthar_nakvax.md",
+      "title": "Puska",
+      "title_term": "Silthar Nakvax"
+    },
+    {
+      "file": "098_Pysäyttäjä.md",
+      "new_file": "098_ezhara_ithnok.md",
+      "title": "Pysäyttäjä",
+      "title_term": "Ezhara Ithnok"
+    },
+    {
+      "file": "099_Raukka.md",
+      "new_file": "099_ostrek_grevaska.md",
+      "title": "Raukka",
+      "title_term": "Ostrek Grevaska"
+    },
+    {
+      "file": "100_Robottikyttä.md",
+      "new_file": "100_orune_morghor.md",
+      "title": "Robottikyttä",
+      "title_term": "Orune Morghor"
+    },
+    {
+      "file": "101_Rotta.md",
+      "new_file": "101_vorak_dravia.md",
+      "title": "Rotta",
+      "title_term": "Vorak Dravia"
+    },
+    {
+      "file": "102_Ruttorotta.md",
+      "new_file": "102_quorin_vessha.md",
+      "title": "Ruttorotta",
+      "title_term": "Quorin Vessha"
+    },
+    {
+      "file": "103_Rynkkyhiisi.md",
+      "new_file": "103_naktoi_orphis.md",
+      "title": "Rynkkyhiisi",
+      "title_term": "Naktoi Orphis"
+    },
+    {
+      "file": "104_Salamurhaajarobotti.md",
+      "new_file": "104_sarnel_halqir.md",
+      "title": "Salamurhaajarobotti",
+      "title_term": "Sarnel Halqir"
+    },
+    {
+      "file": "105_Sauvojen_tuntija.md",
+      "new_file": "105_zentha_ymnok.md",
+      "title": "Sauvojen tuntija",
+      "title_term": "Zentha Ymnok"
+    },
+    {
+      "file": "106_Siirtäjämestari.md",
+      "new_file": "106_belthar_morventh.md",
+      "title": "Siirtäjämestari",
+      "title_term": "Belthar Morventh"
+    },
+    {
+      "file": "107_Skorpioni.md",
+      "new_file": "107_thalven_mavphis.md",
+      "title": "Skorpioni",
+      "title_term": "Thalven Mavphis"
+    },
+    {
+      "file": "108_Skoude.md",
+      "new_file": "108_ymrik_varnok.md",
+      "title": "Skoude",
+      "title_term": "Ymrik Varnok"
+    },
+    {
+      "file": "109_Snipuhiisi.md",
+      "new_file": "109_ymrik_vesventh.md",
+      "title": "Snipuhiisi",
+      "title_term": "Ymrik Vesventh"
+    },
+    {
+      "file": "110_Sokaisunmestari.md",
+      "new_file": "110_halvox_kavkoth.md",
+      "title": "Sokaisunmestari",
+      "title_term": "Halvox Kavkoth"
+    },
+    {
+      "file": "111_Spiraalikalma.md",
+      "new_file": "111_naktoi_varvia.md",
+      "title": "Spiraalikalma",
+      "title_term": "Naktoi Varvia"
+    },
+    {
+      "file": "112_Stendari.md",
+      "new_file": "112_morvek_halmar.md",
+      "title": "Stendari",
+      "title_term": "Morvek Halmar"
+    },
+    {
+      "file": "113_Stevari.md",
+      "new_file": "113_rukhel_ymqir.md",
+      "title": "Stevari",
+      "title_term": "Rukhel Ymqir"
+    },
+    {
+      "file": "114_Suomuhauki.md",
+      "new_file": "114_ymrik_quonok.md",
+      "title": "Suomuhauki",
+      "title_term": "Ymrik Quonok"
+    },
+    {
+      "file": "115_Susi.md",
+      "new_file": "115_krel_ondnok.md",
+      "title": "Susi",
+      "title_term": "Krel Ondnok"
+    },
+    {
+      "file": "116_Sylkyri.md",
+      "new_file": "116_kavrik_quoventh.md",
+      "title": "Sylkyri",
+      "title_term": "Kavrik Quoventh"
+    },
+    {
+      "file": "117_Syväolento.md",
+      "new_file": "117_sarnel_zenvaska.md",
+      "title": "Syväolento",
+      "title_term": "Sarnel Zenvaska"
+    },
+    {
+      "file": "118_Sähikäismenninkäinen.md",
+      "new_file": "118_belthar_mavqir.md",
+      "title": "Sähikäismenninkäinen",
+      "title_term": "Belthar Mavqir"
+    },
+    {
+      "file": "119_Sähkiö.md",
+      "new_file": "119_ymrik_dunok.md",
+      "title": "Sähkiö",
+      "title_term": "Ymrik Dunok"
+    },
+    {
+      "file": "120_Sätkymestari.md",
+      "new_file": "120_drazen_orkoth.md",
+      "title": "Sätkymestari",
+      "title_term": "Drazen Orkoth"
+    },
+    {
+      "file": "121_Taikasauva.md",
+      "new_file": "121_zentha_nakvaska.md",
+      "title": "Taikasauva",
+      "title_term": "Zentha Nakvaska"
+    },
+    {
+      "file": "122_Taivaankatse.md",
+      "new_file": "122_quorin_tavmar.md",
+      "title": "Taivaankatse",
+      "title_term": "Quorin Tavmar"
+    },
+    {
+      "file": "123_Taivaskristalli.md",
+      "new_file": "123_ezhara_silphis.md",
+      "title": "Taivaskristalli",
+      "title_term": "Ezhara Silphis"
+    },
+    {
+      "file": "124_Tapion_vasalli.md",
+      "new_file": "124_quorin_varphis.md",
+      "title": "Tapion vasalli",
+      "title_term": "Quorin Varphis"
+    },
+    {
+      "file": "125_Tappurahiisi.md",
+      "new_file": "125_zentha_ymghor.md",
+      "title": "Tappurahiisi",
+      "title_term": "Zentha Ymghor"
+    },
+    {
+      "file": "126_Tarkkailija.md",
+      "new_file": "126_quorin_keskoth.md",
+      "title": "Tarkkailija",
+      "title_term": "Quorin Keskoth"
+    },
+    {
+      "file": "127_Teloittaja.md",
+      "new_file": "127_vorak_nakkoth.md",
+      "title": "Teloittaja",
+      "title_term": "Vorak Nakkoth"
+    },
+    {
+      "file": "128_Toimari.md",
+      "new_file": "128_rukhel_kolvax.md",
+      "title": "Toimari",
+      "title_term": "Rukhel Kolvax"
+    },
+    {
+      "file": "129_Torjuntalaite.md",
+      "new_file": "129_halvox_kolqir.md",
+      "title": "Torjuntalaite",
+      "title_term": "Halvox Kolqir"
+    },
+    {
+      "file": "130_Toukka.md",
+      "new_file": "130_quorin_ondqir.md",
+      "title": "Toukka",
+      "title_term": "Quorin Ondqir"
+    },
+    {
+      "file": "131_Toveri.md",
+      "new_file": "131_morvek_morvia.md",
+      "title": "Toveri",
+      "title_term": "Morvek Morvia"
+    },
+    {
+      "file": "132_Tulihiisi.md",
+      "new_file": "132_drazen_duventh.md",
+      "title": "Tulihiisi",
+      "title_term": "Drazen Duventh"
+    },
+    {
+      "file": "133_Tulikärpänen.md",
+      "new_file": "133_ulmar_belvax.md",
+      "title": "Tulikärpänen",
+      "title_term": "Ulmar Belvax"
+    },
+    {
+      "file": "134_Tuonelankone.md",
+      "new_file": "134_orune_tavghor.md",
+      "title": "Tuonelankone",
+      "title_term": "Orune Tavghor"
+    },
+    {
+      "file": "135_Turso.md",
+      "new_file": "135_rukhel_greventh.md",
+      "title": "Turso",
+      "title_term": "Rukhel Greventh"
+    },
+    {
+      "file": "136_Turvalennokki.md",
+      "new_file": "136_sarnel_vosqir.md",
+      "title": "Turvalennokki",
+      "title_term": "Sarnel Vosqir"
+    },
+    {
+      "file": "137_Turvattomuusmestari.md",
+      "new_file": "137_halvox_krelnok.md",
+      "title": "Turvattomuusmestari",
+      "title_term": "Halvox Krelnok"
+    },
+    {
+      "file": "138_Turvonnu_velho.md",
+      "new_file": "138_grevan_quoghor.md",
+      "title": "Turvonnu velho",
+      "title_term": "Grevan Quoghor"
+    },
+    {
+      "file": "139_Ukko.md",
+      "new_file": "139_drazen_krelvaska.md",
+      "title": "Ukko",
+      "title_term": "Drazen Krelvaska"
+    },
+    {
+      "file": "140_Ukkoshyypiö.md",
+      "new_file": "140_sarnel_zenqir.md",
+      "title": "Ukkoshyypiö",
+      "title_term": "Sarnel Zenqir"
+    },
+    {
+      "file": "141_Unohdettu.md",
+      "new_file": "141_belthar_sarmar.md",
+      "title": "Unohdettu",
+      "title_term": "Belthar Sarmar"
+    },
+    {
+      "file": "142_Vaihdosmestari.md",
+      "new_file": "142_thalven_ulmar.md",
+      "title": "Vaihdosmestari",
+      "title_term": "Thalven Ulmar"
+    },
+    {
+      "file": "143_Vakoilija.md",
+      "new_file": "143_tavrek_ymreth.md",
+      "title": "Vakoilija",
+      "title_term": "Tavrek Ymreth"
+    },
+    {
+      "file": "144_Valaistunut_alkemisti.md",
+      "new_file": "144_naktoi_ernreth.md",
+      "title": "Valaistunut alkemisti",
+      "title_term": "Naktoi Ernreth"
+    },
+    {
+      "file": "145_Valhe.md",
+      "new_file": "145_vessin_kesmar.md",
+      "title": "Valhe",
+      "title_term": "Vessin Kesmar"
+    },
+    {
+      "file": "146_Varjokupla.md",
+      "new_file": "146_krel_quovaska.md",
+      "title": "Varjokupla",
+      "title_term": "Krel Quovaska"
+    },
+    {
+      "file": "147_Verikristalli.md",
+      "new_file": "147_vessin_tavkoth.md",
+      "title": "Verikristalli",
+      "title_term": "Vessin Tavkoth"
+    },
+    {
+      "file": "148_Ylialkemisti.md",
+      "new_file": "148_kessari_ithvax.md",
+      "title": "Ylialkemisti",
+      "title_term": "Kessari Ithvax"
+    },
+    {
+      "file": "149_Äitinuljaska.md",
+      "new_file": "149_grevan_rukkoth.md",
+      "title": "Äitinuljaska",
+      "title_term": "Grevan Rukkoth"
+    }
+  ],
+  "terms": {
+    "Alkemistin Varjo": "Halvox Ymvaska",
+    "Alchemist's Shadow": "Ymvaska Drifter",
+    "Amppari": "Zentha Kavsha",
+    "Wasp": "Kavsha Weaver",
+    "Ankka": "Quorin Belventh",
+    "Duck": "Belventh Shambler",
+    "Eldari": "Halvox Ymmar",
+    "Hellfire Mage": "Ymmar Shaper",
+    "Elvytyskristalli": "Vorak Silghor",
+    "Recovery Crystal": "Silghor Minder",
+    "Epäalkemisti": "Drazen Orghor",
+    "Non-alchemist": "Orghor Sifter",
+    "Eväkäs": "Kavrik Varvax",
+    "Fish": "Varvax Shambler",
+    "Haamu": "Kessari Mavvax",
+    "Wraith": "Mavvax Burrower",
+    "Haamukivi": "Rukhel Vossha",
+    "Ghost Crystal": "Vossha Marauder",
+    "Haavoittajamestari": "Vorak Halreth",
+    "Master of Wounding": "Halreth Herder",
+    "Hahmonvaihtaja": "Zentha Ymvia",
+    "Shapechanger": "Ymvia Weaver",
+    "Happonuljaska": "Vessin Kessha",
+    "Acid Slime": "Kessha Stalker",
+    "Haulikkohiisi": "Halvox Nakvia",
+    "Shotgun Hiisi": "Nakvia Weaver",
+    "Heinäsirkka": "Duvar Tavvia",
+    "Cricket": "Tavvia Watcher",
+    "Helvetin sylkijä": "Vorak Halsha",
+    "Hell Spitter": "Halsha Shaper",
+    "Helvetinkatse": "Belthar Ulqir",
+    "Hell Gazer": "Ulqir Shaper",
+    "Helvetinmato": "Silthar Grevax",
+    "Hell Worm": "Grevax Sapper",
+    "Henkevä potu": "Morvek Kesreth",
+    "Potion Mimic": "Kesreth Brooder",
+    "Hiidenkivi": "Orune Tavvaska",
+    "Rock Giant": "Tavvaska Sifter",
+    "Hohtava hyypiö": "Ostrek Ulsha",
+    "Glowing Creep": "Ulsha Trapper",
+    "Hohtonaamio": "Mavrok Morreth",
+    "Glowing Mask": "Morreth Striker",
+    "Houre": "Ulmar Kesphis",
+    "Delirium": "Kesphis Skitterer",
+    "Huhtasieni": "Halvox Naknok",
+    "Pollen Morel": "Naknok Drifter",
+    "Hurtta": "Orune Morvax",
+    "Hound": "Morvax Roamer",
+    "Hyypiö": "Rukhel Kolsha",
+    "Creep": "Kolsha Watcher",
+    "Häive": "Morvek Rukphis",
+    "Fade": "Rukphis Drifter",
+    "Häivehiisi": "Kessari Ernghor",
+    "Stealth Hiisi": "Ernghor Trapper",
+    "Hämis": "Silthar Nakmar",
+    "Spidey": "Nakmar Swarmer",
+    "Hämähäkki": "Krel Ostnok",
+    "Spider": "Ostnok Stinger",
+    "Innocent Spirit": "Kessari Sarvia",
+    "IT-Tankki": "Quorin Ondventh",
+    "Rocket Tank": "Ondventh Darter",
+    "Jalkamatkatavara": "Ymrik Varvaska",
+    "Leggy Mimic": "Varvaska Brooder",
+    "Jouluhiisi": "Tavrek Mavvaska",
+    "Christmas Hiisi": "Mavvaska Marauder",
+    "Jäähdytyslaite": "Kessari Sarnok",
+    "Icer": "Sarnok Prowler",
+    "Jäätiö": "Silthar Kavvia",
+    "Ice Spirit": "Kavvia Striker",
+    "Kaamo-Aave": "Tavrek Sarreth",
+    "Depression Spirit": "Sarreth Skitterer",
+    "Kadotettu alkemisti": "Kavrik Dureth",
+    "Damned Alchemist": "Dureth Herder",
+    "Kallokärpänen": "Vessin Tavvax",
+    "Skull Fly": "Tavvax Brooder",
+    "Kallorotta": "Mavrok Rukreth",
+    "Skull Rat": "Rukreth Skulker",
+    "Kalmamato": "Ezhara Ithvaska",
+    "Death Worm": "Ithvaska Weaver",
+    "Kammolukki": "Vorak Silnok",
+    "Toothy spider": "Silnok Trapper",
+    "Kasvoton Lukki": "Naktoi Duphis",
+    "Faceless spider": "Duphis Sapper",
+    "Kauhuhirviö": "Kavrik Quoqir",
+    "Horror Monster": "Quoqir Howler",
+    "Kilpihiisi": "Ostrek Ernsha",
+    "Shield Hiisi": "Ernsha Shaper",
+    "Kirottu kristalli": "Ostrek Sarvax",
+    "Cursed Crystal": "Sarvax Lurker",
+    "Kiukkukalma": "Kavrik Dukoth",
+    "Angry Phantom": "Dukoth Stalker",
+    "Kiukkumöykky": "Ymrik Vesmar",
+    "Angry Blob": "Vesmar Trapper",
+    "Kivi": "Ulmar Ostreth",
+    "Stone": "Ostreth Warden",
+    "KK-Tankki": "Naktoi Vesreth",
+    "Tank": "Vesreth Sifter",
+    "Kohdennusmestari": "Belthar Thalphis",
+    "Master of Homing": "Thalphis Marauder",
+    "Kokkihiisi": "Quorin Mornok",
+    "Hiisi Chef": "Mornok Glider",
+    "Kolmisilmä": "Sarnel Zenkoth",
+    "Three-Eye": "Zenkoth Shambler",
+    "Kolmisilmän apuri": "Ostrek Varsha",
+    "Three-Eye's Helper": "Varsha Stalker",
+    "Kolmisilmän Koipi": "Ezhara Ithkoth",
+    "Three-Eye's Legs": "Ithkoth Prowler",
+    "Kolmisilmän Kätyri": "Halvox Gresha",
+    "Three-eye's Minion": "Gresha Howler",
+    "Kolmisilmän silmä": "Sarnel Draventh",
+    "Three-Eye's Eye": "Draventh Skitterer",
+    "Kolmisilmän sydän": "Rukhel Vosnok",
+    "Three-Eye's Heart": "Vosnok Skulker",
+    "Konna": "Ezhara Tavventh",
+    "Toad": "Tavventh Sentinel",
+    "Korjauslennokki": "Kessari Belvaska",
+    "Repair Drone": "Belvaska Minder",
+    "Kranuhiisi": "Duvar Tavqir",
+    "Hiisi Grenadier": "Tavqir Swarmer",
+    "Kummitus": "Krel Ymventh",
+    "Ghost": "Ymventh Minder",
+    "Kyrmyniska": "Krel Grekoth",
+    "Hunchback": "Grekoth Brooder",
+    "Laahustussieni": "Quorin Ostvax",
+    "Shuffling Fungus": "Ostvax Brooder",
+    "Lammas": "Grevan Vesvax",
+    "Sheep": "Vesvax Sentinel",
+    "Laser-Tankki": "Ostrek Sarghor",
+    "Laser Tank": "Sarghor Glider",
+    "Lennokki": "Naktoi Krelkoth",
+    "Drone": "Krelkoth Burrower",
+    "Lentolammas": "Grevan Krelvia",
+    "Flying Sheep": "Krelvia Keeper",
+    "Lepakko": "Grevan Ostmar",
+    "Bat": "Ostmar Herder",
+    "Liekkari": "Drazen Mavsha",
+    "Flamer": "Mavsha Darter",
+    "Liekkiö": "Mavrok Drakoth",
+    "Fire Spirit": "Drakoth Drifter",
+    "Liimahiisi": "Morvek Zenvax",
+    "Glue Hiisi": "Zenvax Shambler",
+    "Limanuljaska": "Krel Vosphis",
+    "Toxic Slime": "Vosphis Sifter",
+    "Limatoukka": "Drazen Quokoth",
+    "Slime Maggot": "Quokoth Marauder",
+    "Lohkare": "Orune Morvaska",
+    "Rock Spirit": "Morvaska Stalker",
+    "Lukki": "Silthar Grephis",
+    "Daddy Longlegs": "Grephis Striker",
+    "Maadoittajamestari": "Sarnel Halvaska",
+    "Master of Grounding": "Halvaska Watcher",
+    "Marraskone": "Kessari Dramar",
+    "Super Necrobot": "Dramar Seeder",
+    "Matkija": "Rukhel Mavventh",
+    "Mimic": "Mavventh Trapper",
+    "Mato": "Belthar Ernqir",
+    "Worm": "Ernqir Shambler",
+    "Mestarien mestari": "Tavrek Ezhreth",
+    "Master of Masters": "Ezhreth Trapper",
+    "Miinankylväjä": "Naktoi Quovax",
+    "Hiisi Mine Thrower": "Quovax Marksman",
+    "Mokke": "Thalven Ulvax",
+    "Goalkeeper": "Ulvax Herder",
+    "Molari": "Thalven Ezhghor",
+    "Mulkkio": "Ezhara Silventh",
+    "Gazer": "Silventh Drifter",
+    "Munkki": "Morvek Ithventh",
+    "Monk": "Ithventh Stalker",
+    "Muodonmuutosmestari": "Ymrik Krelsha",
+    "Master of Polymorphing": "Krelsha Burrower",
+    "Murkku": "Quorin Kesvax",
+    "Ant": "Kesvax Drifter",
+    "Myrkkyhiisi": "Silthar Vosreth",
+    "Hiisi Poisoner": "Vosreth Stinger",
+    "Myrkkynääpikkä": "Ymrik Dumar",
+    "Funeral Bell": "Dumar Roamer",
+    "Märkiäinen": "Rukhel Ymphis",
+    "Swampling": "Ymphis Sapper",
+    "Mätänevä kroppa": "Krel Ymvax",
+    "Rotting Body": "Ymvax Watcher",
+    "Mätänevä pää": "Ostrek Thalkoth",
+    "Rotting Head": "Thalkoth Stinger",
+    "Mätänevä ruumis": "Mavrok Dravaska",
+    "Rotting Corpse": "Dravaska Darter",
+    "Mätäryömijä": "Rukhel Voskoth",
+    "Putrid Crawler": "Voskoth Seeder",
+    "Möykky": "Quorin Ezhventh",
+    "Blob": "Ezhventh Sentinel",
+    "Nahkiainen": "Ostrek Ernvax",
+    "Lamprey": "Ernvax Prowler",
+    "Nelikoipi": "Ostrek Thalvaska",
+    "Deer": "Thalvaska Shambler",
+    "Neva-Aave": "Drazen Kolnok",
+    "Bog Spirit": "Kolnok Shambler",
+    "Nuijamalikka": "Belthar Ezhvax",
+    "Club-foot": "Ezhvax Sentinel",
+    "Olematon": "Silthar Halvax",
+    "Non-existent": "Halvax Keeper",
+    "Pahan muisto": "Halvox Ymkoth",
+    "Memory of Evil": "Ymkoth Marksman",
+    "Pakkasukko": "Sarnel Zenvia",
+    "Old Man Winter": "Zenvia Stalker",
+    "Palauttajamestari": "Kavrik Sarsha",
+    "Master of Returning": "Sarsha Stalker",
+    "Parantajahiisi": "Grevan Duvia",
+    "Hiisi Healer": "Duvia Brooder",
+    "Patsas": "Halvox Nakphis",
+    "Statue": "Nakphis Trapper",
+    "Peitsivartija": "Vorak Ithqir",
+    "Lance Sentry": "Ithqir Trapper",
+    "Pikkutulikärpänen": "Vessin Tavsha",
+    "Lesser firefly": "Tavsha Stinger",
+    "Plasmakukka": "Morvek Halvia",
+    "Plasma Flower": "Halvia Sifter",
+    "Poro": "Krel Ostphis",
+    "Reindeer": "Ostphis Roamer",
+    "Puistokemisti": "Belthar Ezhphis",
+    "Hiisi Alchemist": "Ezhphis Stalker",
+    "Puska": "Silthar Nakvax",
+    "Bloom": "Nakvax Marauder",
+    "Pysäyttäjä": "Ezhara Ithnok",
+    "Stopper": "Ithnok Howler",
+    "Raukka": "Ostrek Grevaska",
+    "Coward": "Grevaska Marauder",
+    "Robottikyttä": "Orune Morghor",
+    "Robo-Cop": "Morghor Marksman",
+    "Rotta": "Vorak Dravia",
+    "Rat": "Dravia Trapper",
+    "Ruttorotta": "Quorin Vessha",
+    "Plague Rat": "Vessha Shaper",
+    "Rynkkyhiisi": "Naktoi Orphis",
+    "Hiisi Gunner": "Orphis Skulker",
+    "Salamurhaajarobotti": "Sarnel Halqir",
+    "Assassin Robot": "Halqir Shambler",
+    "Sauvojen tuntija": "Zentha Ymnok",
+    "Connoisseur of Wands": "Ymnok Weaver",
+    "Seula": "Orune Morkoth",
+    "Sieve": "Morkoth Darter",
+    "Siirtäjämestari": "Belthar Morventh",
+    "Master of Teleportation": "Morventh Stinger",
+    "Skorpioni": "Thalven Mavphis",
+    "Scorpion": "Mavphis Howler",
+    "Skoude": "Ymrik Varnok",
+    "Cop": "Varnok Trapper",
+    "Snipuhiisi": "Ymrik Vesventh",
+    "Hiisi Sniper": "Vesventh Drifter",
+    "Sokaisunmestari": "Halvox Kavkoth",
+    "Master of Blinding": "Kavkoth Herder",
+    "Spiraalikalma": "Naktoi Varvia",
+    "Spiral Phantom": "Varvia Herder",
+    "Stendari": "Morvek Halmar",
+    "Fire Mage": "Halmar Prowler",
+    "Stevari": "Rukhel Ymqir",
+    "Guard": "Ymqir Lurker",
+    "Suhiseva lammas": "Ymrik Orreth",
+    "Buzzing Sheep": "Orreth Darter",
+    "Suomuhauki": "Ymrik Quonok",
+    "Dragon": "Quonok Skulker",
+    "Susi": "Krel Ondnok",
+    "Wolf": "Ondnok Stinger",
+    "Sylkyri": "Kavrik Quoventh",
+    "Spitter": "Quoventh Lurker",
+    "Syväolento": "Sarnel Zenvaska",
+    "Creature of the Deep": "Zenvaska Skulker",
+    "Sähikäismenninkäinen": "Belthar Mavqir",
+    "Firecracker Goblin": "Mavqir Burrower",
+    "Sähkiö": "Ymrik Dunok",
+    "Thunder Spirit": "Dunok Minder",
+    "Sätkymestari": "Drazen Orkoth",
+    "Master of Twitching": "Orkoth Lurker",
+    "Taikasauva": "Zentha Nakvaska",
+    "Magic Wand": "Nakvaska Herder",
+    "Taivaankatse": "Quorin Tavmar",
+    "Sky Gazer": "Tavmar Sentinel",
+    "Taivaskristalli": "Ezhara Silphis",
+    "Celestial Crystal": "Silphis Swarmer",
+    "Tapion vasalli": "Quorin Varphis",
+    "Tapio's Vassal": "Varphis Warden",
+    "Tappurahiisi": "Zentha Ymghor",
+    "Miner Hiisi": "Ymghor Seeder",
+    "Tarkkailija": "Quorin Keskoth",
+    "Observer": "Keskoth Lurker",
+    "Teloittaja": "Vorak Nakkoth",
+    "Executioner": "Nakkoth Skitterer",
+    "Toimari": "Rukhel Kolvax",
+    "Hiisi Leader": "Kolvax Stinger",
+    "Torjuntalaite": "Halvox Kolqir",
+    "Turret": "Kolqir Striker",
+    "Toukka": "Quorin Ondqir",
+    "Maggot": "Ondqir Herder",
+    "Toveri": "Morvek Morvia",
+    "Friend": "Morvia Marauder",
+    "Tulihiisi": "Drazen Duventh",
+    "Fire Hiisi": "Duventh Striker",
+    "Tuonelankone": "Orune Tavghor",
+    "Necrobot": "Tavghor Brooder",
+    "Turso": "Rukhel Greventh",
+    "Tentacler": "Greventh Herder",
+    "Turvalennokki": "Sarnel Vosqir",
+    "Safety Drone": "Vosqir Darter",
+    "Turvattomuusmestari": "Halvox Krelnok",
+    "Master of Vulnerability": "Krelnok Prowler",
+    "Turvonnu velho": "Grevan Quoghor",
+    "Bloated Wizard": "Quoghor Drifter",
+    "Ukko": "Drazen Krelvaska",
+    "Thunder Mage": "Krelvaska Burrower",
+    "Ukkoshyypiö": "Sarnel Zenqir",
+    "Thunder Creep": "Zenqir Stinger",
+    "Unohdettu": "Belthar Sarmar",
+    "Forgotten": "Sarmar Striker",
+    "Utu-Aave": "Ezhara Zenreth",
+    "Fog Spirit": "Zenreth Watcher",
+    "Vaihdosmestari": "Thalven Ulmar",
+    "Master of Exchange": "Ulmar Sentinel",
+    "Vakoilija": "Tavrek Ymreth",
+    "Spy": "Ymreth Marauder",
+    "Valaistunut alkemisti": "Naktoi Ernreth",
+    "Enlightened Alchemist": "Ernreth Marksman",
+    "Valhe": "Vessin Kesmar",
+    "Lie": "Kesmar Stinger",
+    "Varjokupla": "Krel Quovaska",
+    "Shadow Bubble": "Quovaska Drifter",
+    "Verikristalli": "Vessin Tavkoth",
+    "Blood Crystal": "Tavkoth Trapper",
+    "Veska": "Drazen Orvax",
+    "Viha-Aave": "Zentha Nakqir",
+    "Anger Spirit": "Nakqir Warden",
+    "Ylialkemisti": "Kessari Ithvax",
+    "High Alchemist": "Ithvax Trapper",
+    "Äitilimanuljaska": "Drazen Vesvia",
+    "Guardian Slime": "Vesvia Marauder",
+    "Äitinuljaska": "Grevan Rukkoth",
+    "Mother Slime": "Rukkoth Skitterer",
+    "Noita": "Thalvia",
+    "Hiisi": "Nakghor",
+    "Hiidet": "Nakghor",
+    "Aave": "Ostrek Ulkoth",
+    "Gate Guardian": "Quorin Krelvax",
+    "Tulikärpänen": "Ulmar Belvax"
+  }
+}
